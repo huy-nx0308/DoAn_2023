@@ -15,8 +15,10 @@ public class SignIn_Page {
 	//tìm kiếm element email trên trang Login 
 	public static WebElement email() throws Exception  {
 		try {
-			driver.findElement(By.id("email"));
-			element = driver.findElement(By.id("email"));
+			driver.findElement(By.xpath("//span[text()='Đăng nhập']")).click();
+			Thread.sleep(2000);
+			
+			element = driver.findElement(By.xpath("//input[@placeholder ='Email hoặc tên người dùng']"));
 			Log.info("Email text box is found on Login Page");
 			
 		} catch (Exception e) {
@@ -30,7 +32,7 @@ public class SignIn_Page {
 	//tìm kiếm element password trên trang Login 
 		public static WebElement password() throws Exception  {
 			try {
-				element = driver.findElement(By.id("password"));
+				element = driver.findElement(By.xpath("//input[@placeholder ='Mật khẩu']"));
 				Log.info("Password input area is found on Login Page");
 				
 			} catch (Exception e) {
@@ -43,7 +45,7 @@ public class SignIn_Page {
 		//tìm kiếm element button logIn trên trang Login 
 				public static WebElement btn_LogIn() throws Exception  {
 					try {
-						element = driver.findElement(By.xpath("//button[@id='kt_login_signin_submit']"));
+						element = driver.findElement(By.id("login-button"));
 						Log.info("LogIn button is found on Login Page");
 						
 					} catch (Exception e) {

@@ -3,6 +3,7 @@ package com.clinic.testcases;
 import java.time.Duration;
 
 import org.apache.log4j.xml.DOMConfigurator;
+import org.apache.xmlbeans.impl.xb.xsdschema.Public;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
@@ -23,6 +24,7 @@ public class TestCase_SignIn {
 	
 	@BeforeMethod
 	public void beforeMethod() throws Exception {
+		
 		DOMConfigurator.configure("log4j.xml");
 		Log.startTestCase("SignIn");
 		String path = Constant.pathTestData + Constant.fileTestData;
@@ -46,7 +48,7 @@ public class TestCase_SignIn {
 	public void signIn_TC1() throws Exception {
 		try {
 			SignIn_Action.testCase1(excel);
-			if (driver.findElement(By.linkText("Quản lý bệnh nhân")).isDisplayed()) {
+			if (driver.findElement(By.xpath("//span[text()='Cài đặt Ứng dụng']")).isDisplayed()) {
 				Log.info("Check display xpath form SignIn ");
 				excel.setCellData("Pass", 1, 4);
 			}
@@ -58,7 +60,78 @@ public class TestCase_SignIn {
 		}
 
 	}
-
+	
+	@Test(priority = 2)
+	public void signIn_TC2() throws Exception{
+		try {
+			SignIn_Action.testCase2(excel);
+			if(driver.findElement(By.xpath("//span[text()='Tên người dùng hoặc mật khẩu không chính xác.']")).isDisplayed()){
+				excel.setCellData("Pass", 2, 4);
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			excel.setCellData("Fail", 2, 4);
+			Log.error(e.getMessage());
+			throw (e);
+		}
+	}
+	
+	@Test(priority = 3)
+	public void signIn_TC3() throws Exception{
+		try {
+			SignIn_Action.testCase3(excel);
+			if(driver.findElement(By.xpath("//span[text()='Tên người dùng hoặc mật khẩu không chính xác.']")).isDisplayed()){
+				excel.setCellData("Pass", 3, 4);
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			excel.setCellData("Fail", 3, 4);
+			throw (e);
+		}
+	}
+	
+	@Test(priority = 4)
+	public void signIn_TC4() throws Exception{
+		try {
+			SignIn_Action.testCase3(excel);
+			if(driver.findElement(By.xpath("//span[text()='Tên người dùng hoặc mật khẩu không chính xác.']")).isDisplayed()){
+				excel.setCellData("Pass", 4, 4);
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			excel.setCellData("Fail", 4, 4);
+			throw (e);
+		}
+	}
+	
+	@Test(priority = 5)
+	public void signIn_TC5() throws Exception{
+		try {
+			SignIn_Action.testCase3(excel);
+			if(driver.findElement(By.xpath("//span[text()='Tên người dùng hoặc mật khẩu không chính xác.']")).isDisplayed()){
+				excel.setCellData("Pass", 5, 4);
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			excel.setCellData("Fail", 5, 4);
+			throw (e);
+		}
+	}
+	@Test(priority = 6)
+	public void signIn_TC6() throws Exception{
+		try {
+			SignIn_Action.testCase6(excel);
+			if(driver.findElement(By.xpath("//span[text()='Tên người dùng hoặc mật khẩu không chính xác.']")).isDisplayed()){
+				excel.setCellData("Pass", 6, 4);
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			excel.setCellData("Fail", 6, 4);
+			throw (e);
+		}
+	}
+	
+	
 	@AfterMethod
 	public void afterMethod() {
 		Log.endTestCase("SignIn");

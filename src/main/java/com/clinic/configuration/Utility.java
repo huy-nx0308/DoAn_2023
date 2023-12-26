@@ -11,13 +11,17 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.clinic.pageelement.SignIn_Page;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Utility {
 	public static WebDriver driver = null;
 
 	public static WebDriver openBrowser(String browserName) throws Exception {
 		try {
-			if (browserName.equals("Mozila")) {
+			if (browserName.equals("Mozilla")) {
+				
 				//System.setProperty("web.driver.chrome","D:\\Selenium Java\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+				WebDriverManager.firefoxdriver().setup();
 				driver = new FirefoxDriver();
 				Log.info("New driver is instantiated");
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));

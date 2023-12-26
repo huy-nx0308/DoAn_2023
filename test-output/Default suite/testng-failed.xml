@@ -5,9 +5,13 @@
     <classes>
       <class name="com.clinic.testcases.TestCase_SignIn">
         <methods>
+          <include name="signIn_TC3"/>
           <include name="signIn_TC1"/>
           <include name="beforeMethod"/>
-          <include name="afterMethod"/>
+          <include name="signIn_TC6"/>
+          <include name="signIn_TC4"/>
+          <include name="signIn_TC2"/>
+          <include name="signIn_TC5"/>
         </methods>
       </class> <!-- com.clinic.testcases.TestCase_SignIn -->
     </classes>

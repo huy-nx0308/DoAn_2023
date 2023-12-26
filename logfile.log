@@ -401,3 +401,784 @@ Session ID: 6718a069-f03f-4222-87b5-2b114fdee4a7
 2023-12-23 21:31:10,896 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
 2023-12-23 21:31:10,896 INFO  [Log] X 
 2023-12-23 21:31:10,896 INFO  [Log] X 
+2023-12-26 20:33:54,736 INFO  [Log] **************************************************************************************** 
+2023-12-26 20:33:54,741 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 20:33:54,741 INFO  [Log] **************************************************************************************** 
+2023-12-26 20:33:55,997 INFO  [Log] Excel sheet opened 
+2023-12-26 20:33:55,997 INFO  [Log] Excel sheet opened 
+2023-12-26 20:34:02,692 ERROR [Log] Class utils | Method OpenBrowser | Exception desc: Unable to establish websocket connection to http://localhost:62834/devtools/browser/61bc2cd0-dc83-4de5-a280-8793e88712d7
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: ChromeDriver 
+2023-12-26 20:40:35,298 INFO  [Log] **************************************************************************************** 
+2023-12-26 20:40:35,303 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 20:40:35,304 INFO  [Log] **************************************************************************************** 
+2023-12-26 20:40:36,392 INFO  [Log] Excel sheet opened 
+2023-12-26 20:40:36,392 INFO  [Log] Excel sheet opened 
+2023-12-26 20:40:40,787 ERROR [Log] Class utils | Method OpenBrowser | Exception desc: Unable to establish websocket connection to http://localhost:63167/devtools/browser/083d324e-89ab-4d0e-a417-c30248e93e6d
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: ChromeDriver 
+2023-12-26 20:44:21,211 INFO  [Log] **************************************************************************************** 
+2023-12-26 20:44:21,216 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 20:44:21,216 INFO  [Log] **************************************************************************************** 
+2023-12-26 20:44:22,349 INFO  [Log] Excel sheet opened 
+2023-12-26 20:44:22,349 INFO  [Log] Excel sheet opened 
+2023-12-26 20:44:26,771 ERROR [Log] Class utils | Method OpenBrowser | Exception desc: Unable to establish websocket connection to http://localhost:63327/devtools/browser/1b62b94b-8480-49b0-8e51-75b7f4d98890
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: ChromeDriver 
+2023-12-26 20:47:23,466 INFO  [Log] **************************************************************************************** 
+2023-12-26 20:47:23,470 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 20:47:23,470 INFO  [Log] **************************************************************************************** 
+2023-12-26 20:47:24,691 INFO  [Log] Excel sheet opened 
+2023-12-26 20:47:24,691 INFO  [Log] Excel sheet opened 
+2023-12-26 20:47:29,268 ERROR [Log] Class utils | Method OpenBrowser | Exception desc: Unable to establish websocket connection to http://localhost:63635/devtools/browser/5098b5b7-bfb4-4b78-ab7c-104a69a02cfd
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: ChromeDriver 
+2023-12-26 20:53:44,439 INFO  [Log] **************************************************************************************** 
+2023-12-26 20:53:44,444 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 20:53:44,444 INFO  [Log] **************************************************************************************** 
+2023-12-26 20:53:45,546 INFO  [Log] Excel sheet opened 
+2023-12-26 20:53:45,546 INFO  [Log] Excel sheet opened 
+2023-12-26 20:53:50,002 ERROR [Log] Class utils | Method OpenBrowser | Exception desc: Unable to establish websocket connection to http://localhost:64258/devtools/browser/0ea7c9ea-fc4c-478b-9409-9754d1923d2d
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: ChromeDriver 
+2023-12-26 20:56:33,805 INFO  [Log] **************************************************************************************** 
+2023-12-26 20:56:33,809 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 20:56:33,809 INFO  [Log] **************************************************************************************** 
+2023-12-26 20:56:34,903 INFO  [Log] Excel sheet opened 
+2023-12-26 20:56:34,904 INFO  [Log] Excel sheet opened 
+2023-12-26 20:56:39,333 ERROR [Log] Class utils | Method OpenBrowser | Exception desc: Unable to establish websocket connection to http://localhost:64367/devtools/browser/9923bda1-2d2f-4ea1-976d-b51db7d90140
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: ChromeDriver 
+2023-12-26 20:57:10,545 INFO  [Log] **************************************************************************************** 
+2023-12-26 20:57:10,551 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 20:57:10,551 INFO  [Log] **************************************************************************************** 
+2023-12-26 20:57:11,924 INFO  [Log] Excel sheet opened 
+2023-12-26 20:57:11,924 INFO  [Log] Excel sheet opened 
+2023-12-26 20:57:16,104 ERROR [Log] Class utils | Method OpenBrowser | Exception desc: Unable to establish websocket connection to http://localhost:64387/devtools/browser/eff8af2c-bf98-4e34-aefe-dd206acbb0ad
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: ChromeDriver 
+2023-12-26 20:57:36,599 INFO  [Log] **************************************************************************************** 
+2023-12-26 20:57:36,604 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 20:57:36,604 INFO  [Log] **************************************************************************************** 
+2023-12-26 20:57:38,488 INFO  [Log] Excel sheet opened 
+2023-12-26 20:57:38,488 INFO  [Log] Excel sheet opened 
+2023-12-26 20:57:44,555 ERROR [Log] Class utils | Method OpenBrowser | Exception desc: Unable to establish websocket connection to http://localhost:64413/devtools/browser/bdabbd3b-aa92-4b9a-afdd-5a4ff648ac36
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: ChromeDriver 
+2023-12-26 21:01:47,873 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:01:47,879 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:01:47,879 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:01:49,104 INFO  [Log] Excel sheet opened 
+2023-12-26 21:01:49,104 INFO  [Log] Excel sheet opened 
+2023-12-26 21:01:53,937 ERROR [Log] Class utils | Method OpenBrowser | Exception desc: Unable to establish websocket connection to http://localhost:65247/devtools/browser/80678840-f7e3-44ad-a5ec-673e5a9bd77f
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: ChromeDriver 
+2023-12-26 21:03:13,956 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:03:13,961 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:03:13,961 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:03:15,329 INFO  [Log] Excel sheet opened 
+2023-12-26 21:03:15,330 INFO  [Log] Excel sheet opened 
+2023-12-26 21:03:17,223 ERROR [Log] Class utils | Method OpenBrowser | Exception desc: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads 
+2023-12-26 21:04:24,992 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:04:24,998 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:04:24,998 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:04:26,180 INFO  [Log] Excel sheet opened 
+2023-12-26 21:04:26,180 INFO  [Log] Excel sheet opened 
+2023-12-26 21:04:32,017 ERROR [Log] Class utils | Method OpenBrowser | Exception desc: Unable to establish websocket connection to http://localhost:65337/devtools/browser/8c15e202-2d4f-475b-a059-5f4c9f76c869
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: ChromeDriver 
+2023-12-26 21:17:50,262 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:17:50,267 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:17:50,268 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:17:51,530 INFO  [Log] Excel sheet opened 
+2023-12-26 21:17:51,530 INFO  [Log] Excel sheet opened 
+2023-12-26 21:17:59,797 INFO  [Log] New driver is instantiated 
+2023-12-26 21:17:59,827 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 21:17:59,838 INFO  [Log] maximize browser 
+2023-12-26 21:18:01,324 INFO  [Log] Open web application 
+2023-12-26 21:18:01,366 INFO  [Log] Browser full screen 
+2023-12-26 21:18:02,035 INFO  [Log] Web application launched successfully 
+2023-12-26 21:18:02,072 INFO  [Log] Email address taken from Excelfile istest@example.com 
+2023-12-26 21:18:02,072 INFO  [Log] Email address taken from Excelfile is123456789 
+2023-12-26 21:18:02,112 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 21:18:02,294 INFO  [Log] Enter email 
+2023-12-26 21:18:02,310 INFO  [Log] Password input area is found on Login Page 
+2023-12-26 21:18:02,342 INFO  [Log] Enter password 
+2023-12-26 21:18:02,349 INFO  [Log] LogIn button is found on Login Page 
+2023-12-26 21:18:02,646 INFO  [Log] Click in button Login button 
+2023-12-26 21:18:05,371 INFO  [Log] Check display xpath form SignIn  
+2023-12-26 21:18:05,838 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 21:18:05,838 INFO  [Log] X 
+2023-12-26 21:18:05,838 INFO  [Log] X 
+2023-12-26 21:20:07,044 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:20:07,048 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:20:07,048 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:20:08,306 INFO  [Log] Excel sheet opened 
+2023-12-26 21:20:08,306 INFO  [Log] Excel sheet opened 
+2023-12-26 21:20:16,080 INFO  [Log] New driver is instantiated 
+2023-12-26 21:20:16,101 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 21:20:16,110 INFO  [Log] maximize browser 
+2023-12-26 21:20:17,724 INFO  [Log] Open web application 
+2023-12-26 21:20:17,760 INFO  [Log] Browser full screen 
+2023-12-26 21:20:18,629 INFO  [Log] Web application launched successfully 
+2023-12-26 21:20:18,643 INFO  [Log] Email address taken from Excelfile istest@example.com 
+2023-12-26 21:20:18,644 INFO  [Log] Email address taken from Excelfile is123456789 
+2023-12-26 21:20:18,694 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 21:20:18,912 INFO  [Log] Enter email 
+2023-12-26 21:20:18,925 INFO  [Log] Password input area is found on Login Page 
+2023-12-26 21:20:18,969 INFO  [Log] Enter password 
+2023-12-26 21:20:18,979 INFO  [Log] LogIn button is found on Login Page 
+2023-12-26 21:20:19,935 INFO  [Log] Click in button Login button 
+2023-12-26 21:20:20,169 INFO  [Log] Check display xpath form SignIn  
+2023-12-26 21:20:20,581 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 21:20:20,582 INFO  [Log] X 
+2023-12-26 21:20:20,582 INFO  [Log] X 
+2023-12-26 21:28:47,167 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:28:47,172 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:28:47,172 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:28:48,275 INFO  [Log] Excel sheet opened 
+2023-12-26 21:28:48,275 INFO  [Log] Excel sheet opened 
+2023-12-26 21:28:56,011 INFO  [Log] New driver is instantiated 
+2023-12-26 21:28:56,032 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 21:28:56,042 INFO  [Log] maximize browser 
+2023-12-26 21:29:03,671 INFO  [Log] Open web application 
+2023-12-26 21:29:03,693 INFO  [Log] Browser full screen 
+2023-12-26 21:29:07,203 INFO  [Log] Web application launched successfully 
+2023-12-26 21:29:07,224 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-26 21:29:07,226 INFO  [Log] Email address taken from Excelfile isHuy163173491@ 
+2023-12-26 21:29:17,624 ERROR [Log] Email text box is not found on Login Page 
+2023-12-26 21:29:17,887 ERROR [Log] Unable to locate element: //span[text()='Log in']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [48229693-df1f-45ad-b3d6-a4f1ba4dd261, findElement {using=xpath, value=//span[text()='Log in']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:44122, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21524, moz:profile: C:\Users\HUY.NX183556\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:44122/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 48229693-df1f-45ad-b3d6-a4f1ba4dd261 
+2023-12-26 21:29:17,893 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 21:29:17,894 INFO  [Log] X 
+2023-12-26 21:29:17,894 INFO  [Log] X 
+2023-12-26 21:33:39,198 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:33:39,203 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:33:39,204 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:33:40,441 INFO  [Log] Excel sheet opened 
+2023-12-26 21:33:40,442 INFO  [Log] Excel sheet opened 
+2023-12-26 21:33:48,202 INFO  [Log] New driver is instantiated 
+2023-12-26 21:33:48,221 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 21:33:48,229 INFO  [Log] maximize browser 
+2023-12-26 21:33:56,155 INFO  [Log] Open web application 
+2023-12-26 21:33:56,174 INFO  [Log] Browser full screen 
+2023-12-26 21:33:56,687 INFO  [Log] Web application launched successfully 
+2023-12-26 21:33:56,714 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-26 21:33:56,715 INFO  [Log] Email address taken from Excelfile isHuy163173491@ 
+2023-12-26 21:34:06,781 ERROR [Log] Email text box is not found on Login Page 
+2023-12-26 21:34:07,056 ERROR [Log] Unable to locate element: //span[text()='Log in']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e0c979f6-0628-4d63-9289-d7bc5bc2cb64, findElement {using=xpath, value=//span[text()='Log in']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:15050, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18460, moz:profile: C:\Users\HUY.NX183556\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:15050/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e0c979f6-0628-4d63-9289-d7bc5bc2cb64 
+2023-12-26 21:34:07,071 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 21:34:07,071 INFO  [Log] X 
+2023-12-26 21:34:07,071 INFO  [Log] X 
+2023-12-26 21:34:33,660 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:34:33,665 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:34:33,665 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:34:35,037 INFO  [Log] Excel sheet opened 
+2023-12-26 21:34:35,037 INFO  [Log] Excel sheet opened 
+2023-12-26 21:34:43,065 INFO  [Log] New driver is instantiated 
+2023-12-26 21:34:43,087 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 21:34:43,096 INFO  [Log] maximize browser 
+2023-12-26 21:34:49,583 INFO  [Log] Open web application 
+2023-12-26 21:34:49,611 INFO  [Log] Browser full screen 
+2023-12-26 21:34:52,644 INFO  [Log] Web application launched successfully 
+2023-12-26 21:34:52,661 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-26 21:34:52,662 INFO  [Log] Email address taken from Excelfile isHuy163173491@ 
+2023-12-26 21:35:03,051 ERROR [Log] Email text box is not found on Login Page 
+2023-12-26 21:35:03,348 ERROR [Log] Unable to locate element: //span[text()='Log in']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ab4677ba-88f1-4f84-822e-97fed02340a7, findElement {using=xpath, value=//span[text()='Log in']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:19114, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2744, moz:profile: C:\Users\HUY.NX183556\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19114/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ab4677ba-88f1-4f84-822e-97fed02340a7 
+2023-12-26 21:35:03,363 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 21:35:03,363 INFO  [Log] X 
+2023-12-26 21:35:03,363 INFO  [Log] X 
+2023-12-26 21:36:07,563 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:36:07,569 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:36:07,569 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:36:08,896 INFO  [Log] Excel sheet opened 
+2023-12-26 21:36:08,896 INFO  [Log] Excel sheet opened 
+2023-12-26 21:36:16,059 INFO  [Log] New driver is instantiated 
+2023-12-26 21:36:16,080 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 21:36:16,089 INFO  [Log] maximize browser 
+2023-12-26 21:36:22,596 INFO  [Log] Open web application 
+2023-12-26 21:36:22,616 INFO  [Log] Browser full screen 
+2023-12-26 21:36:25,464 INFO  [Log] Web application launched successfully 
+2023-12-26 21:36:25,484 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-26 21:36:25,485 INFO  [Log] Email address taken from Excelfile isHuy163173491@ 
+2023-12-26 21:36:35,170 ERROR [Log] Email text box is not found on Login Page 
+2023-12-26 21:36:36,086 ERROR [Log] TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [913c7984-7cb9-4d63-b675-84fd900a226e, findElement {using=xpath, value=//span[text()='Log in']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:15594, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13988, moz:profile: C:\Users\HUY.NX183556\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:15594/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 913c7984-7cb9-4d63-b675-84fd900a226e 
+2023-12-26 21:36:36,096 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 21:36:36,096 INFO  [Log] X 
+2023-12-26 21:36:36,096 INFO  [Log] X 
+2023-12-26 21:37:08,870 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:37:08,875 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:37:08,875 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:37:10,259 INFO  [Log] Excel sheet opened 
+2023-12-26 21:37:10,259 INFO  [Log] Excel sheet opened 
+2023-12-26 21:37:17,657 INFO  [Log] New driver is instantiated 
+2023-12-26 21:37:17,681 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 21:37:17,691 INFO  [Log] maximize browser 
+2023-12-26 21:37:24,625 INFO  [Log] Open web application 
+2023-12-26 21:37:24,641 INFO  [Log] Browser full screen 
+2023-12-26 21:37:27,342 INFO  [Log] Web application launched successfully 
+2023-12-26 21:37:27,361 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-26 21:37:27,362 INFO  [Log] Email address taken from Excelfile isHuy163173491@ 
+2023-12-26 21:37:37,512 ERROR [Log] Email text box is not found on Login Page 
+2023-12-26 21:37:37,524 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 21:37:37,524 INFO  [Log] X 
+2023-12-26 21:37:37,524 INFO  [Log] X 
+2023-12-26 21:39:08,065 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:39:08,070 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:39:08,070 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:39:09,176 INFO  [Log] Excel sheet opened 
+2023-12-26 21:39:09,176 INFO  [Log] Excel sheet opened 
+2023-12-26 21:39:17,493 INFO  [Log] New driver is instantiated 
+2023-12-26 21:39:17,511 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 21:39:17,519 INFO  [Log] maximize browser 
+2023-12-26 21:39:24,315 INFO  [Log] Open web application 
+2023-12-26 21:39:24,336 INFO  [Log] Browser full screen 
+2023-12-26 21:39:27,329 INFO  [Log] Web application launched successfully 
+2023-12-26 21:39:27,347 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-26 21:39:27,348 INFO  [Log] Email address taken from Excelfile isHuy163173491@ 
+2023-12-26 21:39:37,405 ERROR [Log] Email text box is not found on Login Page 
+2023-12-26 21:39:37,791 ERROR [Log] Unable to locate element: //span[text()='Log in']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [190c090f-5a3c-4140-a6b2-9266f040c843, findElement {using=xpath, value=//span[text()='Log in']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:6447, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2912, moz:profile: C:\Users\HUY.NX183556\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6447/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 190c090f-5a3c-4140-a6b2-9266f040c843 
+2023-12-26 21:39:37,819 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 21:39:37,819 INFO  [Log] X 
+2023-12-26 21:39:37,819 INFO  [Log] X 
+2023-12-26 21:40:52,012 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:40:52,016 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:40:52,016 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:40:53,143 INFO  [Log] Excel sheet opened 
+2023-12-26 21:40:53,143 INFO  [Log] Excel sheet opened 
+2023-12-26 21:41:01,014 INFO  [Log] New driver is instantiated 
+2023-12-26 21:41:01,055 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 21:41:01,074 INFO  [Log] maximize browser 
+2023-12-26 21:41:09,598 INFO  [Log] Open web application 
+2023-12-26 21:41:09,622 INFO  [Log] Browser full screen 
+2023-12-26 21:41:13,248 INFO  [Log] Web application launched successfully 
+2023-12-26 21:41:13,271 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-26 21:41:13,272 INFO  [Log] Email address taken from Excelfile isHuy163173491@ 
+2023-12-26 21:41:23,497 ERROR [Log] Email text box is not found on Login Page 
+2023-12-26 21:41:23,796 ERROR [Log] Unable to locate element: //span[text()='Log in']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c985602b-2d53-4b8f-b640-4464cac307d7, findElement {using=xpath, value=//span[text()='Log in']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:9941, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10256, moz:profile: C:\Users\HUY.NX183556\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:9941/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c985602b-2d53-4b8f-b640-4464cac307d7 
+2023-12-26 21:41:23,931 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 21:41:23,932 INFO  [Log] X 
+2023-12-26 21:41:23,932 INFO  [Log] X 
+2023-12-26 21:41:51,101 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:41:51,105 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:41:51,105 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:41:52,200 INFO  [Log] Excel sheet opened 
+2023-12-26 21:41:52,200 INFO  [Log] Excel sheet opened 
+2023-12-26 21:42:00,019 INFO  [Log] New driver is instantiated 
+2023-12-26 21:42:00,049 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 21:42:00,059 INFO  [Log] maximize browser 
+2023-12-26 21:42:06,431 INFO  [Log] Open web application 
+2023-12-26 21:42:06,452 INFO  [Log] Browser full screen 
+2023-12-26 21:42:09,514 INFO  [Log] Web application launched successfully 
+2023-12-26 21:42:09,531 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-26 21:42:09,532 INFO  [Log] Email address taken from Excelfile isHuy163173491@ 
+2023-12-26 21:42:19,632 ERROR [Log] Email text box is not found on Login Page 
+2023-12-26 21:42:20,113 ERROR [Log] Unable to locate element: //span[text()='Log in']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [42c50f1c-8a84-4dcc-8515-40392309ebb0, findElement {using=xpath, value=//span[text()='Log in']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:8240, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21344, moz:profile: C:\Users\HUY.NX183556\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:8240/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 42c50f1c-8a84-4dcc-8515-40392309ebb0 
+2023-12-26 21:42:20,150 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 21:42:20,151 INFO  [Log] X 
+2023-12-26 21:42:20,151 INFO  [Log] X 
+2023-12-26 21:48:38,076 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:48:38,082 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:48:38,082 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:48:39,204 INFO  [Log] Excel sheet opened 
+2023-12-26 21:48:39,204 INFO  [Log] Excel sheet opened 
+2023-12-26 21:48:47,091 INFO  [Log] New driver is instantiated 
+2023-12-26 21:48:47,107 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 21:48:47,113 INFO  [Log] maximize browser 
+2023-12-26 21:48:57,429 INFO  [Log] Open web application 
+2023-12-26 21:48:57,469 INFO  [Log] Browser full screen 
+2023-12-26 21:49:04,466 INFO  [Log] Web application launched successfully 
+2023-12-26 21:49:04,481 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-26 21:49:04,481 INFO  [Log] Email address taken from Excelfile isHuy163173491@ 
+2023-12-26 21:49:07,319 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 21:49:07,653 INFO  [Log] Enter email 
+2023-12-26 21:49:07,682 INFO  [Log] Password input area is found on Login Page 
+2023-12-26 21:49:07,828 INFO  [Log] Enter password 
+2023-12-26 21:49:07,913 INFO  [Log] LogIn button is found on Login Page 
+2023-12-26 21:49:08,153 INFO  [Log] Click in button Login button 
+2023-12-26 21:49:20,174 ERROR [Log] Unable to locate element: Quản lý bệnh nhân
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b97251ee-c5a6-40c4-a54a-10227cc5a441, findElement {using=link text, value=Quản lý bệnh nhân}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:37852, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21876, moz:profile: C:\Users\HUY.NX183556\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:37852/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b97251ee-c5a6-40c4-a54a-10227cc5a441 
+2023-12-26 21:49:20,184 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 21:49:20,184 INFO  [Log] X 
+2023-12-26 21:49:20,185 INFO  [Log] X 
+2023-12-26 21:53:51,485 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:53:51,489 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:53:51,489 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:53:52,685 INFO  [Log] Excel sheet opened 
+2023-12-26 21:53:52,685 INFO  [Log] Excel sheet opened 
+2023-12-26 21:54:00,243 INFO  [Log] New driver is instantiated 
+2023-12-26 21:54:00,266 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 21:54:00,275 INFO  [Log] maximize browser 
+2023-12-26 21:54:06,918 INFO  [Log] Open web application 
+2023-12-26 21:54:06,940 INFO  [Log] Browser full screen 
+2023-12-26 21:54:09,661 INFO  [Log] Web application launched successfully 
+2023-12-26 21:54:09,680 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-26 21:54:09,681 INFO  [Log] Email address taken from Excelfile isHuy163173491@ 
+2023-12-26 21:54:12,752 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 21:54:13,149 INFO  [Log] Enter email 
+2023-12-26 21:54:13,181 INFO  [Log] Password input area is found on Login Page 
+2023-12-26 21:54:13,301 INFO  [Log] Enter password 
+2023-12-26 21:54:13,361 INFO  [Log] LogIn button is found on Login Page 
+2023-12-26 21:54:13,599 INFO  [Log] Click in button Login button 
+2023-12-26 21:54:13,647 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 21:54:13,648 INFO  [Log] X 
+2023-12-26 21:54:13,648 INFO  [Log] X 
+2023-12-26 21:56:08,777 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:56:08,780 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:56:08,780 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:56:09,978 INFO  [Log] Excel sheet opened 
+2023-12-26 21:56:09,978 INFO  [Log] Excel sheet opened 
+2023-12-26 21:56:17,376 INFO  [Log] New driver is instantiated 
+2023-12-26 21:56:17,396 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 21:56:17,404 INFO  [Log] maximize browser 
+2023-12-26 21:56:23,837 INFO  [Log] Open web application 
+2023-12-26 21:56:23,871 INFO  [Log] Browser full screen 
+2023-12-26 21:56:26,781 INFO  [Log] Web application launched successfully 
+2023-12-26 21:56:26,799 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-26 21:56:26,799 INFO  [Log] Email address taken from Excelfile isHuy163173491@ 
+2023-12-26 21:56:29,218 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 21:56:29,692 INFO  [Log] Enter email 
+2023-12-26 21:56:29,727 INFO  [Log] Password input area is found on Login Page 
+2023-12-26 21:56:30,012 INFO  [Log] Enter password 
+2023-12-26 21:56:30,033 INFO  [Log] LogIn button is found on Login Page 
+2023-12-26 21:56:30,298 INFO  [Log] Click in button Login button 
+2023-12-26 21:56:35,396 INFO  [Log] Check display xpath form SignIn  
+2023-12-26 21:56:35,847 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 21:56:35,847 INFO  [Log] X 
+2023-12-26 21:56:35,847 INFO  [Log] X 
+2023-12-26 21:57:36,321 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:57:36,327 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 21:57:36,327 INFO  [Log] **************************************************************************************** 
+2023-12-26 21:57:37,680 INFO  [Log] Excel sheet opened 
+2023-12-26 21:57:37,680 INFO  [Log] Excel sheet opened 
+2023-12-26 21:57:45,869 INFO  [Log] New driver is instantiated 
+2023-12-26 21:57:45,898 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 21:57:45,917 INFO  [Log] maximize browser 
+2023-12-26 21:57:52,563 INFO  [Log] Open web application 
+2023-12-26 21:57:52,587 INFO  [Log] Browser full screen 
+2023-12-26 21:57:55,580 INFO  [Log] Web application launched successfully 
+2023-12-26 21:57:55,601 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-26 21:57:55,602 INFO  [Log] Email address taken from Excelfile isHuy163173491@ 
+2023-12-26 21:57:58,548 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 21:57:58,996 INFO  [Log] Enter email 
+2023-12-26 21:57:59,047 INFO  [Log] Password input area is found on Login Page 
+2023-12-26 21:57:59,268 INFO  [Log] Enter password 
+2023-12-26 21:57:59,275 INFO  [Log] LogIn button is found on Login Page 
+2023-12-26 21:57:59,537 INFO  [Log] Click in button Login button 
+2023-12-26 21:58:04,208 INFO  [Log] Check display xpath form SignIn  
+2023-12-26 21:58:04,680 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 21:58:04,680 INFO  [Log] X 
+2023-12-26 21:58:04,681 INFO  [Log] X 
+2023-12-26 22:02:00,812 INFO  [Log] **************************************************************************************** 
+2023-12-26 22:02:00,818 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 22:02:00,818 INFO  [Log] **************************************************************************************** 
+2023-12-26 22:02:02,099 INFO  [Log] Excel sheet opened 
+2023-12-26 22:02:02,099 INFO  [Log] Excel sheet opened 
+2023-12-26 22:02:09,787 INFO  [Log] New driver is instantiated 
+2023-12-26 22:02:09,810 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 22:02:09,820 INFO  [Log] maximize browser 
+2023-12-26 22:02:16,080 INFO  [Log] Open web application 
+2023-12-26 22:02:16,097 INFO  [Log] Browser full screen 
+2023-12-26 22:02:19,737 INFO  [Log] Web application launched successfully 
+2023-12-26 22:02:19,758 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-26 22:02:19,759 INFO  [Log] Email address taken from Excelfile isHuy163173491@ 
+2023-12-26 22:02:22,613 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 22:02:25,099 INFO  [Log] Enter email 
+2023-12-26 22:02:25,107 INFO  [Log] Password input area is found on Login Page 
+2023-12-26 22:02:27,285 INFO  [Log] Enter password 
+2023-12-26 22:02:27,295 INFO  [Log] LogIn button is found on Login Page 
+2023-12-26 22:02:29,591 INFO  [Log] Click in button Login button 
+2023-12-26 22:02:31,527 INFO  [Log] Check display xpath form SignIn  
+2023-12-26 22:02:32,083 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 22:02:32,083 INFO  [Log] X 
+2023-12-26 22:02:32,083 INFO  [Log] X 
+2023-12-26 23:28:27,824 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:28:27,831 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 23:28:27,831 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:28:29,277 INFO  [Log] Excel sheet opened 
+2023-12-26 23:28:29,278 INFO  [Log] Excel sheet opened 
+2023-12-26 23:28:37,718 INFO  [Log] New driver is instantiated 
+2023-12-26 23:28:37,737 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 23:28:37,744 INFO  [Log] maximize browser 
+2023-12-26 23:28:41,842 INFO  [Log] Open web application 
+2023-12-26 23:28:41,871 INFO  [Log] Browser full screen 
+2023-12-26 23:28:45,358 INFO  [Log] Web application launched successfully 
+2023-12-26 23:28:45,384 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-26 23:28:45,384 INFO  [Log] Password taken from Excelfile isHuy163173491@ 
+2023-12-26 23:28:48,345 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 23:28:50,849 INFO  [Log] Enter email 
+2023-12-26 23:28:50,858 INFO  [Log] Password input area is found on Login Page 
+2023-12-26 23:28:53,022 INFO  [Log] Enter password 
+2023-12-26 23:28:53,039 INFO  [Log] LogIn button is found on Login Page 
+2023-12-26 23:28:55,316 INFO  [Log] Click in button Login button 
+2023-12-26 23:28:56,941 INFO  [Log] Check display xpath form SignIn  
+2023-12-26 23:28:57,373 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 23:28:57,374 INFO  [Log] X 
+2023-12-26 23:28:57,374 INFO  [Log] X 
+2023-12-26 23:29:01,743 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:29:01,744 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 23:29:01,744 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:29:01,866 INFO  [Log] Excel sheet opened 
+2023-12-26 23:29:01,866 INFO  [Log] Excel sheet opened 
+2023-12-26 23:29:06,731 INFO  [Log] New driver is instantiated 
+2023-12-26 23:29:06,737 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 23:29:06,744 INFO  [Log] maximize browser 
+2023-12-26 23:29:14,053 INFO  [Log] Open web application 
+2023-12-26 23:29:14,081 INFO  [Log] Browser full screen 
+2023-12-26 23:29:17,158 INFO  [Log] Web application launched successfully 
+2023-12-26 23:29:17,167 INFO  [Log] Email address taken from Excelfile is 
+2023-12-26 23:29:17,167 INFO  [Log] Password taken from Excelfile is  
+2023-12-26 23:29:20,290 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 23:29:22,758 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 23:29:22,802 INFO  [Log] Enter email 
+2023-12-26 23:29:22,819 INFO  [Log] Password input area is found on Login Page 
+2023-12-26 23:29:24,877 INFO  [Log] Enter password 
+2023-12-26 23:29:24,886 INFO  [Log] LogIn button is found on Login Page 
+2023-12-26 23:29:27,188 INFO  [Log] Click in button Login button 
+2023-12-26 23:29:37,302 ERROR [Log] Unable to locate element: //span[text()='Tên người dùng hoặc mật khẩu không chính xác']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9369bf15-4e7a-42c2-baab-08d4049b5d59, findElement {using=xpath, value=//span[text()='Tên người dùng hoặc mật khẩu không chính xác']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:26514, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16020, moz:profile: C:\Users\HUY.NX183556\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26514/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9369bf15-4e7a-42c2-baab-08d4049b5d59 
+2023-12-26 23:29:37,310 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 23:29:37,310 INFO  [Log] X 
+2023-12-26 23:29:37,310 INFO  [Log] X 
+2023-12-26 23:29:40,465 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:29:40,465 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 23:29:40,465 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:29:40,533 INFO  [Log] Excel sheet opened 
+2023-12-26 23:29:40,533 INFO  [Log] Excel sheet opened 
+2023-12-26 23:29:45,603 INFO  [Log] New driver is instantiated 
+2023-12-26 23:29:45,609 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 23:29:45,614 INFO  [Log] maximize browser 
+2023-12-26 23:29:49,542 INFO  [Log] Open web application 
+2023-12-26 23:29:49,559 INFO  [Log] Browser full screen 
+2023-12-26 23:29:53,024 INFO  [Log] Web application launched successfully 
+2023-12-26 23:29:53,027 INFO  [Log] Email address taken from Excelfile is 
+2023-12-26 23:29:53,027 INFO  [Log] Password taken from Excelfile is Huy163173491@ 
+2023-12-26 23:29:58,487 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 23:30:00,774 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 23:30:00,815 INFO  [Log] Enter email 
+2023-12-26 23:30:00,826 INFO  [Log] Password input area is found on Login Page 
+2023-12-26 23:30:03,038 INFO  [Log] Enter password 
+2023-12-26 23:30:03,051 INFO  [Log] LogIn button is found on Login Page 
+2023-12-26 23:30:05,337 INFO  [Log] Click in button Login button 
+2023-12-26 23:30:15,411 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 23:30:15,411 INFO  [Log] X 
+2023-12-26 23:30:15,411 INFO  [Log] X 
+2023-12-26 23:30:18,400 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:30:18,400 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 23:30:18,400 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:30:18,471 INFO  [Log] Excel sheet opened 
+2023-12-26 23:30:18,471 INFO  [Log] Excel sheet opened 
+2023-12-26 23:30:23,304 INFO  [Log] New driver is instantiated 
+2023-12-26 23:30:23,310 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 23:30:23,317 INFO  [Log] maximize browser 
+2023-12-26 23:30:31,316 INFO  [Log] Open web application 
+2023-12-26 23:30:31,330 INFO  [Log] Browser full screen 
+2023-12-26 23:30:35,644 INFO  [Log] Web application launched successfully 
+2023-12-26 23:30:35,647 INFO  [Log] Email address taken from Excelfile is 
+2023-12-26 23:30:35,647 INFO  [Log] Password taken from Excelfile is Huy163173491@ 
+2023-12-26 23:30:38,751 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 23:30:41,081 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 23:30:41,152 INFO  [Log] Enter email 
+2023-12-26 23:30:41,162 INFO  [Log] Password input area is found on Login Page 
+2023-12-26 23:30:43,362 INFO  [Log] Enter password 
+2023-12-26 23:30:43,372 INFO  [Log] LogIn button is found on Login Page 
+2023-12-26 23:30:45,665 INFO  [Log] Click in button Login button 
+2023-12-26 23:30:55,798 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 23:30:55,798 INFO  [Log] X 
+2023-12-26 23:30:55,798 INFO  [Log] X 
+2023-12-26 23:30:59,362 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:30:59,362 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 23:30:59,362 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:30:59,415 INFO  [Log] Excel sheet opened 
+2023-12-26 23:30:59,415 INFO  [Log] Excel sheet opened 
+2023-12-26 23:31:06,267 INFO  [Log] New driver is instantiated 
+2023-12-26 23:31:06,275 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 23:31:06,281 INFO  [Log] maximize browser 
+2023-12-26 23:31:10,298 INFO  [Log] Open web application 
+2023-12-26 23:31:10,315 INFO  [Log] Browser full screen 
+2023-12-26 23:31:13,359 INFO  [Log] Web application launched successfully 
+2023-12-26 23:31:13,365 INFO  [Log] Email address taken from Excelfile is 
+2023-12-26 23:31:13,366 INFO  [Log] Password taken from Excelfile is Huy163173491@ 
+2023-12-26 23:31:15,947 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 23:31:18,326 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 23:31:18,373 INFO  [Log] Enter email 
+2023-12-26 23:31:18,383 INFO  [Log] Password input area is found on Login Page 
+2023-12-26 23:31:20,553 INFO  [Log] Enter password 
+2023-12-26 23:31:20,560 INFO  [Log] LogIn button is found on Login Page 
+2023-12-26 23:31:22,836 INFO  [Log] Click in button Login button 
+2023-12-26 23:31:32,939 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 23:31:32,941 INFO  [Log] X 
+2023-12-26 23:31:32,941 INFO  [Log] X 
+2023-12-26 23:31:35,933 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:31:35,933 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 23:31:35,933 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:31:35,991 INFO  [Log] Excel sheet opened 
+2023-12-26 23:31:35,991 INFO  [Log] Excel sheet opened 
+2023-12-26 23:31:40,670 INFO  [Log] New driver is instantiated 
+2023-12-26 23:31:40,677 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 23:31:40,682 INFO  [Log] maximize browser 
+2023-12-26 23:31:44,539 INFO  [Log] Open web application 
+2023-12-26 23:31:44,555 INFO  [Log] Browser full screen 
+2023-12-26 23:31:47,845 INFO  [Log] Web application launched successfully 
+2023-12-26 23:31:47,849 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-26 23:31:47,849 INFO  [Log] Password taken from Excelfile is Huy163173491 
+2023-12-26 23:31:50,984 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 23:31:53,450 INFO  [Log] Email text box is found on Login Page 
+2023-12-26 23:31:53,700 INFO  [Log] Enter email 
+2023-12-26 23:31:53,707 INFO  [Log] Password input area is found on Login Page 
+2023-12-26 23:31:55,868 INFO  [Log] Enter password 
+2023-12-26 23:31:55,883 INFO  [Log] LogIn button is found on Login Page 
+2023-12-26 23:31:58,187 INFO  [Log] Click in button Login button 
+2023-12-26 23:32:08,244 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-26 23:32:08,244 INFO  [Log] X 
+2023-12-26 23:32:08,244 INFO  [Log] X 
+2023-12-26 23:42:49,651 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:42:49,657 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 23:42:49,657 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:42:50,803 INFO  [Log] Excel sheet opened 
+2023-12-26 23:42:50,804 INFO  [Log] Excel sheet opened 
+2023-12-26 23:43:04,457 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:43:04,462 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 23:43:04,462 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:43:05,860 INFO  [Log] Excel sheet opened 
+2023-12-26 23:43:05,861 INFO  [Log] Excel sheet opened 
+2023-12-26 23:43:14,691 INFO  [Log] New driver is instantiated 
+2023-12-26 23:43:14,710 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-26 23:43:14,718 INFO  [Log] maximize browser 
+2023-12-26 23:43:18,756 INFO  [Log] Open web application 
+2023-12-26 23:43:18,794 INFO  [Log] Browser full screen 
+2023-12-26 23:43:21,551 INFO  [Log] Web application launched successfully 
+2023-12-26 23:43:21,565 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-26 23:43:21,565 INFO  [Log] Password taken from Excelfile isHuy163173491@ 
+2023-12-26 23:43:21,700 ERROR [Log] Email text box is not found on Login Page 
+2023-12-26 23:43:30,602 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:43:30,606 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 23:43:30,606 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:43:30,725 INFO  [Log] Excel sheet opened 
+2023-12-26 23:51:20,127 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:51:20,132 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 23:51:20,133 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:51:21,368 INFO  [Log] Excel sheet opened 
+2023-12-26 23:51:21,368 INFO  [Log] Excel sheet opened 
+2023-12-26 23:52:00,581 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:52:00,587 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 23:52:00,587 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:52:01,670 INFO  [Log] Excel sheet opened 
+2023-12-26 23:52:01,670 INFO  [Log] Excel sheet opened 
+2023-12-26 23:55:29,912 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:55:29,916 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 23:55:29,916 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:55:31,013 INFO  [Log] Excel sheet opened 
+2023-12-26 23:55:31,013 INFO  [Log] Excel sheet opened 
+2023-12-26 23:56:54,469 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:56:54,473 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 23:56:54,473 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:56:55,812 INFO  [Log] Excel sheet opened 
+2023-12-26 23:56:55,812 INFO  [Log] Excel sheet opened 
+2023-12-26 23:59:55,750 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:59:55,755 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-26 23:59:55,756 INFO  [Log] **************************************************************************************** 
+2023-12-26 23:59:56,893 INFO  [Log] Excel sheet opened 
+2023-12-26 23:59:56,893 INFO  [Log] Excel sheet opened 
+2023-12-27 00:00:04,399 INFO  [Log] New driver is instantiated 
+2023-12-27 00:00:04,436 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 00:00:04,450 INFO  [Log] maximize browser 
+2023-12-27 00:00:17,831 INFO  [Log] Open web application 
+2023-12-27 00:00:17,864 INFO  [Log] Browser full screen 
+2023-12-27 00:00:20,553 INFO  [Log] Web application launched successfully 
+2023-12-27 00:00:20,569 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-27 00:00:20,570 INFO  [Log] Password taken from Excelfile isHuy163173491@ 
+2023-12-27 00:00:23,362 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 00:00:25,720 INFO  [Log] Enter email 
+2023-12-27 00:00:25,729 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 00:00:27,893 INFO  [Log] Enter password 
+2023-12-27 00:00:27,903 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 00:00:30,231 INFO  [Log] Click in button Login button 
+2023-12-27 00:00:32,527 INFO  [Log] Check display xpath form SignIn  
+2023-12-27 00:00:33,081 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 00:00:33,081 INFO  [Log] X 
+2023-12-27 00:00:33,081 INFO  [Log] X 
+2023-12-27 00:00:37,102 INFO  [Log] **************************************************************************************** 
+2023-12-27 00:00:37,102 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 00:00:37,102 INFO  [Log] **************************************************************************************** 
+2023-12-27 00:00:37,172 INFO  [Log] Excel sheet opened 
+2023-12-27 00:00:37,172 INFO  [Log] Excel sheet opened 
+2023-12-27 00:00:41,879 INFO  [Log] New driver is instantiated 
+2023-12-27 00:00:41,887 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 00:00:41,895 INFO  [Log] maximize browser 
+2023-12-27 00:00:45,935 INFO  [Log] Open web application 
+2023-12-27 00:00:45,952 INFO  [Log] Browser full screen 
+2023-12-27 00:00:49,192 INFO  [Log] Web application launched successfully 
+2023-12-27 00:00:49,196 INFO  [Log] Email address taken from Excelfile is 
+2023-12-27 00:00:49,196 INFO  [Log] Password taken from Excelfile is  
+2023-12-27 00:00:52,209 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 00:00:54,703 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 00:00:54,745 INFO  [Log] Enter email 
+2023-12-27 00:00:54,756 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 00:00:56,795 INFO  [Log] Enter password 
+2023-12-27 00:00:56,811 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 00:00:59,107 INFO  [Log] Click in button Login button 
+2023-12-27 00:00:59,204 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 00:00:59,204 INFO  [Log] X 
+2023-12-27 00:00:59,204 INFO  [Log] X 
+2023-12-27 00:01:02,254 INFO  [Log] **************************************************************************************** 
+2023-12-27 00:01:02,254 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 00:01:02,254 INFO  [Log] **************************************************************************************** 
+2023-12-27 00:01:02,318 INFO  [Log] Excel sheet opened 
+2023-12-27 00:01:02,318 INFO  [Log] Excel sheet opened 
+2023-12-27 00:01:07,094 INFO  [Log] New driver is instantiated 
+2023-12-27 00:01:07,101 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 00:01:07,108 INFO  [Log] maximize browser 
+2023-12-27 00:01:11,249 INFO  [Log] Open web application 
+2023-12-27 00:01:11,277 INFO  [Log] Browser full screen 
+2023-12-27 00:01:14,504 INFO  [Log] Web application launched successfully 
+2023-12-27 00:01:14,513 INFO  [Log] Email address taken from Excelfile is 
+2023-12-27 00:01:14,514 INFO  [Log] Password taken from Excelfile is Huy163173491@ 
+2023-12-27 00:01:17,169 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 00:01:19,469 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 00:01:19,508 INFO  [Log] Enter email 
+2023-12-27 00:01:19,514 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 00:01:21,725 INFO  [Log] Enter password 
+2023-12-27 00:01:21,733 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 00:01:24,024 INFO  [Log] Click in button Login button 
+2023-12-27 00:01:24,119 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 00:01:24,119 INFO  [Log] X 
+2023-12-27 00:01:24,119 INFO  [Log] X 
+2023-12-27 00:01:26,881 INFO  [Log] **************************************************************************************** 
+2023-12-27 00:01:26,881 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 00:01:26,881 INFO  [Log] **************************************************************************************** 
+2023-12-27 00:01:26,966 INFO  [Log] Excel sheet opened 
+2023-12-27 00:01:26,966 INFO  [Log] Excel sheet opened 
+2023-12-27 00:01:31,787 INFO  [Log] New driver is instantiated 
+2023-12-27 00:01:31,794 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 00:01:31,800 INFO  [Log] maximize browser 
+2023-12-27 00:01:36,003 INFO  [Log] Open web application 
+2023-12-27 00:01:36,028 INFO  [Log] Browser full screen 
+2023-12-27 00:01:38,932 INFO  [Log] Web application launched successfully 
+2023-12-27 00:01:38,943 INFO  [Log] Email address taken from Excelfile is 
+2023-12-27 00:01:38,944 INFO  [Log] Password taken from Excelfile is Huy163173491@ 
+2023-12-27 00:01:41,712 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 00:01:44,103 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 00:01:44,157 INFO  [Log] Enter email 
+2023-12-27 00:01:44,163 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 00:01:46,356 INFO  [Log] Enter password 
+2023-12-27 00:01:46,365 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 00:01:48,636 INFO  [Log] Click in button Login button 
+2023-12-27 00:01:48,731 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 00:01:48,731 INFO  [Log] X 
+2023-12-27 00:01:48,731 INFO  [Log] X 
+2023-12-27 00:01:51,928 INFO  [Log] **************************************************************************************** 
+2023-12-27 00:01:51,928 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 00:01:51,928 INFO  [Log] **************************************************************************************** 
+2023-12-27 00:01:51,986 INFO  [Log] Excel sheet opened 
+2023-12-27 00:01:51,986 INFO  [Log] Excel sheet opened 
+2023-12-27 00:01:56,710 INFO  [Log] New driver is instantiated 
+2023-12-27 00:01:56,717 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 00:01:56,723 INFO  [Log] maximize browser 
+2023-12-27 00:02:00,706 INFO  [Log] Open web application 
+2023-12-27 00:02:00,727 INFO  [Log] Browser full screen 
+2023-12-27 00:02:04,054 INFO  [Log] Web application launched successfully 
+2023-12-27 00:02:04,059 INFO  [Log] Email address taken from Excelfile is 
+2023-12-27 00:02:04,060 INFO  [Log] Password taken from Excelfile is Huy163173491@ 
+2023-12-27 00:02:07,242 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 00:02:09,652 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 00:02:09,689 INFO  [Log] Enter email 
+2023-12-27 00:02:09,696 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 00:02:11,944 INFO  [Log] Enter password 
+2023-12-27 00:02:11,988 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 00:02:14,325 INFO  [Log] Click in button Login button 
+2023-12-27 00:02:14,422 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 00:02:14,422 INFO  [Log] X 
+2023-12-27 00:02:14,423 INFO  [Log] X 
+2023-12-27 00:02:17,757 INFO  [Log] **************************************************************************************** 
+2023-12-27 00:02:17,757 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 00:02:17,757 INFO  [Log] **************************************************************************************** 
+2023-12-27 00:02:17,825 INFO  [Log] Excel sheet opened 
+2023-12-27 00:02:17,825 INFO  [Log] Excel sheet opened 
+2023-12-27 00:02:22,444 INFO  [Log] New driver is instantiated 
+2023-12-27 00:02:22,450 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 00:02:22,457 INFO  [Log] maximize browser 
+2023-12-27 00:02:27,279 INFO  [Log] Open web application 
+2023-12-27 00:02:27,306 INFO  [Log] Browser full screen 
+2023-12-27 00:02:30,701 INFO  [Log] Web application launched successfully 
+2023-12-27 00:02:30,704 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-27 00:02:30,704 INFO  [Log] Password taken from Excelfile is Huy1631734911234@ 
+2023-12-27 00:02:33,420 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 00:02:35,853 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 00:02:36,236 INFO  [Log] Enter email 
+2023-12-27 00:02:36,246 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 00:02:38,388 INFO  [Log] Enter password 
+2023-12-27 00:02:38,400 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 00:02:40,679 INFO  [Log] Click in button Login button 
+2023-12-27 00:02:40,827 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 00:02:40,827 INFO  [Log] X 
+2023-12-27 00:02:40,827 INFO  [Log] X 
