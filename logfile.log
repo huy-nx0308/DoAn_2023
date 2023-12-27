@@ -1182,3 +1182,279 @@ Session ID: 9369bf15-4e7a-42c2-baab-08d4049b5d59
 2023-12-27 00:02:40,827 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
 2023-12-27 00:02:40,827 INFO  [Log] X 
 2023-12-27 00:02:40,827 INFO  [Log] X 
+2023-12-27 08:32:00,805 INFO  [Log] **************************************************************************************** 
+2023-12-27 08:32:00,809 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 08:32:00,809 INFO  [Log] **************************************************************************************** 
+2023-12-27 08:32:02,002 INFO  [Log] Excel sheet opened 
+2023-12-27 08:32:02,002 INFO  [Log] Excel sheet opened 
+2023-12-27 08:32:11,587 INFO  [Log] New driver is instantiated 
+2023-12-27 08:32:11,613 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 08:32:11,622 INFO  [Log] maximize browser 
+2023-12-27 08:32:15,527 INFO  [Log] Open web application 
+2023-12-27 08:32:15,555 INFO  [Log] Browser full screen 
+2023-12-27 08:32:19,048 INFO  [Log] Web application launched successfully 
+2023-12-27 08:32:19,073 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-27 08:32:19,074 INFO  [Log] Password taken from Excelfile isHuy163173491@ 
+2023-12-27 08:32:22,220 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 08:32:24,857 INFO  [Log] Enter email 
+2023-12-27 08:32:24,870 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 08:32:27,004 INFO  [Log] Enter password 
+2023-12-27 08:32:27,027 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 08:32:29,308 INFO  [Log] Click in button Login button 
+2023-12-27 08:32:30,772 INFO  [Log] Check display xpath form SignIn  
+2023-12-27 08:32:31,426 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 08:32:31,426 INFO  [Log] X 
+2023-12-27 08:32:31,426 INFO  [Log] X 
+2023-12-27 08:32:35,659 INFO  [Log] **************************************************************************************** 
+2023-12-27 08:32:35,660 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 08:32:35,660 INFO  [Log] **************************************************************************************** 
+2023-12-27 08:32:35,754 INFO  [Log] Excel sheet opened 
+2023-12-27 08:32:35,754 INFO  [Log] Excel sheet opened 
+2023-12-27 08:32:40,877 INFO  [Log] New driver is instantiated 
+2023-12-27 08:32:40,885 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 08:32:40,891 INFO  [Log] maximize browser 
+2023-12-27 08:32:45,076 INFO  [Log] Open web application 
+2023-12-27 08:32:45,100 INFO  [Log] Browser full screen 
+2023-12-27 08:32:48,498 INFO  [Log] Web application launched successfully 
+2023-12-27 08:32:48,503 INFO  [Log] Email address taken from Excelfile is 
+2023-12-27 08:32:48,503 INFO  [Log] Password taken from Excelfile is  
+2023-12-27 08:32:51,459 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 08:32:53,843 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 08:32:53,888 INFO  [Log] Enter email 
+2023-12-27 08:32:53,933 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 08:32:55,969 INFO  [Log] Enter password 
+2023-12-27 08:32:55,984 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 08:32:58,251 INFO  [Log] Click in button Login button 
+2023-12-27 08:32:58,336 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 08:32:58,336 INFO  [Log] X 
+2023-12-27 08:32:58,336 INFO  [Log] X 
+2023-12-27 08:33:00,880 INFO  [Log] **************************************************************************************** 
+2023-12-27 08:33:00,880 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 08:33:00,880 INFO  [Log] **************************************************************************************** 
+2023-12-27 08:33:00,966 INFO  [Log] Excel sheet opened 
+2023-12-27 08:33:00,966 INFO  [Log] Excel sheet opened 
+2023-12-27 08:33:05,810 INFO  [Log] New driver is instantiated 
+2023-12-27 08:33:05,818 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 08:33:05,835 INFO  [Log] maximize browser 
+2023-12-27 08:33:09,685 INFO  [Log] Open web application 
+2023-12-27 08:33:09,703 INFO  [Log] Browser full screen 
+2023-12-27 08:33:12,983 INFO  [Log] Web application launched successfully http://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd
+2023-12-27 08:33:12,988 INFO  [Log] Email address taken from Excelfile is 
+2023-12-27 08:33:12,989 INFO  [Log] Password taken from Excelfile is Huy163173491@ 
+2023-12-27 08:33:19,539 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 08:33:21,839 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 08:33:21,863 INFO  [Log] Enter email 
+2023-12-27 08:33:21,885 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 08:33:24,072 INFO  [Log] Enter password 
+2023-12-27 08:33:24,084 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 08:33:26,350 INFO  [Log] Click in button Login button 
+2023-12-27 08:33:26,438 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 08:33:26,438 INFO  [Log] X 
+2023-12-27 08:33:26,439 INFO  [Log] X 
+2023-12-27 08:33:29,052 INFO  [Log] **************************************************************************************** 
+2023-12-27 08:33:29,052 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 08:33:29,053 INFO  [Log] **************************************************************************************** 
+2023-12-27 08:33:29,119 INFO  [Log] Excel sheet opened 
+2023-12-27 08:33:29,119 INFO  [Log] Excel sheet opened 
+2023-12-27 08:33:33,896 INFO  [Log] New driver is instantiated 
+2023-12-27 08:33:33,904 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 08:33:33,910 INFO  [Log] maximize browser 
+2023-12-27 08:33:37,898 INFO  [Log] Open web application 
+2023-12-27 08:33:37,919 INFO  [Log] Browser full screen 
+2023-12-27 08:33:41,133 INFO  [Log] Web application launched successfully 
+2023-12-27 08:33:41,140 INFO  [Log] Email address taken from Excelfile is 
+2023-12-27 08:33:41,141 INFO  [Log] Password taken from Excelfile is Huy163173491@ 
+2023-12-27 08:33:44,148 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 08:33:46,558 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 08:33:46,600 INFO  [Log] Enter email 
+2023-12-27 08:33:46,623 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 08:33:48,867 INFO  [Log] Enter password 
+2023-12-27 08:33:48,887 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 08:33:51,178 INFO  [Log] Click in button Login button 
+2023-12-27 08:33:51,254 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 08:33:51,254 INFO  [Log] X 
+2023-12-27 08:33:51,254 INFO  [Log] X 
+2023-12-27 08:33:55,191 INFO  [Log] **************************************************************************************** 
+2023-12-27 08:33:55,191 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 08:33:55,191 INFO  [Log] **************************************************************************************** 
+2023-12-27 08:33:55,261 INFO  [Log] Excel sheet opened 
+2023-12-27 08:33:55,261 INFO  [Log] Excel sheet opened 
+2023-12-27 08:34:00,588 INFO  [Log] New driver is instantiated 
+2023-12-27 08:34:00,596 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 08:34:00,602 INFO  [Log] maximize browser 
+2023-12-27 08:34:04,478 INFO  [Log] Open web application 
+2023-12-27 08:34:04,501 INFO  [Log] Browser full screen 
+2023-12-27 08:34:07,978 INFO  [Log] Web application launched successfully 
+2023-12-27 08:34:07,981 INFO  [Log] Email address taken from Excelfile is 
+2023-12-27 08:34:07,981 INFO  [Log] Password taken from Excelfile is Huy163173491@ 
+2023-12-27 08:34:10,990 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 08:34:13,398 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 08:34:13,437 INFO  [Log] Enter email 
+2023-12-27 08:34:13,446 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 08:34:15,662 INFO  [Log] Enter password 
+2023-12-27 08:34:15,670 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 08:34:17,950 INFO  [Log] Click in button Login button 
+2023-12-27 08:34:18,107 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 08:34:18,107 INFO  [Log] X 
+2023-12-27 08:34:18,107 INFO  [Log] X 
+2023-12-27 08:34:21,047 INFO  [Log] **************************************************************************************** 
+2023-12-27 08:34:21,047 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 08:34:21,047 INFO  [Log] **************************************************************************************** 
+2023-12-27 08:34:21,122 INFO  [Log] Excel sheet opened 
+2023-12-27 08:34:21,122 INFO  [Log] Excel sheet opened 
+2023-12-27 08:34:25,762 INFO  [Log] New driver is instantiated 
+2023-12-27 08:34:25,773 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 08:34:25,779 INFO  [Log] maximize browser 
+2023-12-27 08:34:29,696 INFO  [Log] Open web application 
+2023-12-27 08:34:29,708 INFO  [Log] Browser full screen 
+2023-12-27 08:34:32,708 INFO  [Log] Web application launched successfully 
+2023-12-27 08:34:32,712 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-27 08:34:32,713 INFO  [Log] Password taken from Excelfile is Huy1631734911234@ 
+2023-12-27 08:34:35,353 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 08:34:37,674 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 08:34:37,976 INFO  [Log] Enter email 
+2023-12-27 08:34:37,986 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 08:34:40,167 INFO  [Log] Enter password 
+2023-12-27 08:34:40,174 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 08:34:42,455 INFO  [Log] Click in button Login button 
+2023-12-27 08:34:42,560 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 08:34:42,560 INFO  [Log] X 
+2023-12-27 08:34:42,560 INFO  [Log] X 
+2023-12-27 09:24:55,592 INFO  [Log] **************************************************************************************** 
+2023-12-27 09:24:55,597 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 09:24:55,597 INFO  [Log] **************************************************************************************** 
+2023-12-27 09:24:57,072 INFO  [Log] Excel sheet opened 
+2023-12-27 09:24:57,072 INFO  [Log] Excel sheet opened 
+2023-12-27 09:25:05,359 INFO  [Log] New driver is instantiated 
+2023-12-27 09:25:05,387 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 09:25:05,397 INFO  [Log] maximize browser 
+2023-12-27 09:25:10,083 INFO  [Log] Open web application 
+2023-12-27 09:25:10,106 INFO  [Log] Browser full screen 
+2023-12-27 09:25:13,722 INFO  [Log] Web application launched successfully 
+2023-12-27 09:25:13,728 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-27 09:25:13,731 INFO  [Log] Password taken from Excelfile isHuy163173491@ 
+2023-12-27 09:25:16,466 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 09:25:19,050 INFO  [Log] Enter email 
+2023-12-27 09:25:19,069 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 09:25:21,253 INFO  [Log] Enter password 
+2023-12-27 09:25:21,263 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 09:25:23,573 INFO  [Log] Click in button Login button 
+2023-12-27 09:25:25,797 INFO  [Log] Check display xpath form SignIn  
+2023-12-27 09:25:26,364 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 09:25:26,364 INFO  [Log] X 
+2023-12-27 09:25:26,364 INFO  [Log] X 
+2023-12-27 09:25:29,950 INFO  [Log] **************************************************************************************** 
+2023-12-27 09:25:29,950 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 09:25:29,950 INFO  [Log] **************************************************************************************** 
+2023-12-27 09:25:30,026 INFO  [Log] Excel sheet opened 
+2023-12-27 09:25:30,026 INFO  [Log] Excel sheet opened 
+2023-12-27 09:25:35,426 INFO  [Log] New driver is instantiated 
+2023-12-27 09:25:35,435 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 09:25:35,443 INFO  [Log] maximize browser 
+2023-12-27 09:25:39,886 INFO  [Log] Open web application 
+2023-12-27 09:25:39,902 INFO  [Log] Browser full screen 
+2023-12-27 09:25:43,748 INFO  [Log] Web application launched successfully 
+2023-12-27 09:25:43,750 INFO  [Log] Email address taken from Excelfile is 
+2023-12-27 09:25:43,750 INFO  [Log] Password taken from Excelfile is  
+2023-12-27 09:25:49,773 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 09:25:52,046 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 09:25:52,094 INFO  [Log] Enter email 
+2023-12-27 09:25:52,111 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 09:25:54,158 INFO  [Log] Enter password 
+2023-12-27 09:25:54,171 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 09:25:56,454 INFO  [Log] Click in button Login button 
+2023-12-27 09:25:56,560 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 09:25:56,561 INFO  [Log] X 
+2023-12-27 09:25:56,561 INFO  [Log] X 
+2023-12-27 09:25:59,837 INFO  [Log] **************************************************************************************** 
+2023-12-27 09:25:59,838 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 09:25:59,838 INFO  [Log] **************************************************************************************** 
+2023-12-27 09:25:59,906 INFO  [Log] Excel sheet opened 
+2023-12-27 09:25:59,906 INFO  [Log] Excel sheet opened 
+2023-12-27 09:26:05,424 INFO  [Log] New driver is instantiated 
+2023-12-27 09:26:05,431 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 09:26:05,438 INFO  [Log] maximize browser 
+2023-12-27 09:26:09,638 INFO  [Log] Open web application 
+2023-12-27 09:26:09,661 INFO  [Log] Browser full screen 
+2023-12-27 09:26:13,256 INFO  [Log] Web application launched successfully 
+2023-12-27 09:26:13,257 INFO  [Log] Email address taken from Excelfile is 
+2023-12-27 09:26:13,258 INFO  [Log] Password taken from Excelfile is Huy163173491@ 
+2023-12-27 09:26:16,492 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 09:26:18,793 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 09:26:18,850 INFO  [Log] Enter email 
+2023-12-27 09:26:18,862 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 09:26:21,035 INFO  [Log] Enter password 
+2023-12-27 09:26:21,078 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 09:26:23,359 INFO  [Log] Click in button Login button 
+2023-12-27 09:26:23,489 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 09:26:23,489 INFO  [Log] X 
+2023-12-27 09:26:23,489 INFO  [Log] X 
+2023-12-27 09:26:28,120 INFO  [Log] **************************************************************************************** 
+2023-12-27 09:26:28,120 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 09:26:28,120 INFO  [Log] **************************************************************************************** 
+2023-12-27 09:26:28,235 INFO  [Log] Excel sheet opened 
+2023-12-27 09:26:28,236 INFO  [Log] Excel sheet opened 
+2023-12-27 09:26:35,703 INFO  [Log] New driver is instantiated 
+2023-12-27 09:26:35,710 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 09:26:35,717 INFO  [Log] maximize browser 
+2023-12-27 09:26:40,085 INFO  [Log] Open web application 
+2023-12-27 09:26:40,105 INFO  [Log] Browser full screen 
+2023-12-27 09:26:43,603 INFO  [Log] Web application launched successfully 
+2023-12-27 09:26:43,604 INFO  [Log] Email address taken from Excelfile is 
+2023-12-27 09:26:43,604 INFO  [Log] Password taken from Excelfile is Huy163173491@ 
+2023-12-27 09:26:46,162 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 09:26:48,477 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 09:26:48,519 INFO  [Log] Enter email 
+2023-12-27 09:26:48,547 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 09:26:50,755 INFO  [Log] Enter password 
+2023-12-27 09:26:50,769 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 09:26:53,036 INFO  [Log] Click in button Login button 
+2023-12-27 09:26:53,134 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 09:26:53,134 INFO  [Log] X 
+2023-12-27 09:26:53,134 INFO  [Log] X 
+2023-12-27 09:26:56,568 INFO  [Log] **************************************************************************************** 
+2023-12-27 09:26:56,568 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 09:26:56,569 INFO  [Log] **************************************************************************************** 
+2023-12-27 09:26:56,628 INFO  [Log] Excel sheet opened 
+2023-12-27 09:26:56,628 INFO  [Log] Excel sheet opened 
+2023-12-27 09:27:01,626 INFO  [Log] New driver is instantiated 
+2023-12-27 09:27:01,634 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 09:27:01,642 INFO  [Log] maximize browser 
+2023-12-27 09:27:06,094 INFO  [Log] Open web application 
+2023-12-27 09:27:06,114 INFO  [Log] Browser full screen 
+2023-12-27 09:27:09,826 INFO  [Log] Web application launched successfully 
+2023-12-27 09:27:09,827 INFO  [Log] Email address taken from Excelfile is 
+2023-12-27 09:27:09,827 INFO  [Log] Password taken from Excelfile is Huy163173491@ 
+2023-12-27 09:27:12,497 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 09:27:14,875 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 09:27:14,936 INFO  [Log] Enter email 
+2023-12-27 09:27:14,964 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 09:27:17,314 INFO  [Log] Enter password 
+2023-12-27 09:27:17,321 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 09:27:19,600 INFO  [Log] Click in button Login button 
+2023-12-27 09:27:19,686 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 09:27:19,686 INFO  [Log] X 
+2023-12-27 09:27:19,686 INFO  [Log] X 
+2023-12-27 09:27:22,673 INFO  [Log] **************************************************************************************** 
+2023-12-27 09:27:22,673 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2023-12-27 09:27:22,673 INFO  [Log] **************************************************************************************** 
+2023-12-27 09:27:22,723 INFO  [Log] Excel sheet opened 
+2023-12-27 09:27:22,723 INFO  [Log] Excel sheet opened 
+2023-12-27 09:27:27,856 INFO  [Log] New driver is instantiated 
+2023-12-27 09:27:27,863 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2023-12-27 09:27:27,870 INFO  [Log] maximize browser 
+2023-12-27 09:27:32,263 INFO  [Log] Open web application 
+2023-12-27 09:27:32,277 INFO  [Log] Browser full screen 
+2023-12-27 09:27:36,098 INFO  [Log] Web application launched successfully 
+2023-12-27 09:27:36,099 INFO  [Log] Email address taken from Excelfile isxuanhuynguyen0308@gmail.com 
+2023-12-27 09:27:36,100 INFO  [Log] Password taken from Excelfile is Huy1631734911234@ 
+2023-12-27 09:27:39,232 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 09:27:41,643 INFO  [Log] Email text box is found on Login Page 
+2023-12-27 09:27:42,000 INFO  [Log] Enter email 
+2023-12-27 09:27:42,012 INFO  [Log] Password input area is found on Login Page 
+2023-12-27 09:27:44,166 INFO  [Log] Enter password 
+2023-12-27 09:27:44,174 INFO  [Log] LogIn button is found on Login Page 
+2023-12-27 09:27:46,506 INFO  [Log] Click in button Login button 
+2023-12-27 09:27:46,594 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2023-12-27 09:27:46,594 INFO  [Log] X 
+2023-12-27 09:27:46,594 INFO  [Log] X 

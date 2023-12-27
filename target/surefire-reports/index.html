@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,46 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.clinic.testcases.TestCase_SignIn" class="method navigator-link" hash-for-method="signIn_TC1">signIn_TC1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.clinic.testcases.TestCase_SignIn" class="method navigator-link" hash-for-method="signIn_TC2">signIn_TC2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.clinic.testcases.TestCase_SignIn" class="method navigator-link" hash-for-method="signIn_TC3">signIn_TC3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.clinic.testcases.TestCase_SignIn" class="method navigator-link" hash-for-method="signIn_TC4">signIn_TC4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.clinic.testcases.TestCase_SignIn" class="method navigator-link" hash-for-method="signIn_TC5">signIn_TC5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.clinic.testcases.TestCase_SignIn" class="method navigator-link" hash-for-method="signIn_TC6">signIn_TC6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +142,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.clinic.testcases.TestCase_SignIn</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,19 +153,45 @@
                   <a name="signIn_TC1">
                   </a> <!-- signIn_TC1 -->
                   <span class="method-name">signIn_TC1</span>
-                  <div class="stack-trace">java.io.FileNotFoundException: C:\Users\HUY.NX183556\java\eclipse\workspace\DoAn_2023\src\main\java\com\clinic\testData\Test_Data.xlsx (The process cannot access the file because it is being used by another process)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:235)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:123)
-	at com.clinic.configuration.ExcelUtils.setCellData(ExcelUtils.java:77)
-	at com.clinic.testcases.TestCase_SignIn.signIn_TC1(TestCase_SignIn.java:52)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn_TC2">
+                  </a> <!-- signIn_TC2 -->
+                  <span class="method-name">signIn_TC2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn_TC3">
+                  </a> <!-- signIn_TC3 -->
+                  <span class="method-name">signIn_TC3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn_TC4">
+                  </a> <!-- signIn_TC4 -->
+                  <span class="method-name">signIn_TC4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn_TC5">
+                  </a> <!-- signIn_TC5 -->
+                  <span class="method-name">signIn_TC5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn_TC6">
+                  </a> <!-- signIn_TC6 -->
+                  <span class="method-name">signIn_TC6</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -193,16 +244,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'signIn_TC1')
+data.setCell(0, 1, 'signIn_TC2')
 data.setCell(0, 2, 'com.clinic.testcases.TestCase_SignIn')
-data.setCell(0, 3, 102);
+data.setCell(0, 3, 12811);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'signIn_TC1')
+data.setCell(1, 2, 'com.clinic.testcases.TestCase_SignIn')
+data.setCell(1, 3, 12637);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'signIn_TC6')
+data.setCell(2, 2, 'com.clinic.testcases.TestCase_SignIn')
+data.setCell(2, 3, 10496);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'signIn_TC3')
+data.setCell(3, 2, 'com.clinic.testcases.TestCase_SignIn')
+data.setCell(3, 3, 10232);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'signIn_TC5')
+data.setCell(4, 2, 'com.clinic.testcases.TestCase_SignIn')
+data.setCell(4, 3, 9859);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'signIn_TC4')
+data.setCell(5, 2, 'com.clinic.testcases.TestCase_SignIn')
+data.setCell(5, 3, 9530);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 102 ms</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -213,6 +284,42 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signIn_TC1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sign in action successfully performed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signIn_TC3</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sign in action is not successfully performed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signIn_TC2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sign in action is not successfully performed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signIn_TC4</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sign in action is not successfully performed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signIn_TC6</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sign in action is not successfully performed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signIn_TC5</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sign in action is not successfully performed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -234,14 +341,72 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">signIn_TC1</span>
-                <span class="method-start">17646 ms</span>
+                <span class="method-start">18361 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">17760 ms</span>
+                <span class="method-start">31001 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">34580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signIn_TC2</span>
+                <span class="method-start">48387 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">61198 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">64465 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signIn_TC3</span>
+                <span class="method-start">77894 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">88126 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">92747 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signIn_TC4</span>
+                <span class="method-start">108241 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">117772 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">121192 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signIn_TC5</span>
+                <span class="method-start">134464 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">144324 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">147296 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signIn_TC6</span>
+                <span class="method-start">160736 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">171232 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

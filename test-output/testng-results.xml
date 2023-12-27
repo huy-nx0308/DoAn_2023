@@ -20,102 +20,102 @@
       <![CDATA[Sign in action is not successfully performed]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-12-26T16:59:55Z" name="Default suite" finished-at="2023-12-26T17:02:45Z" duration-ms="170019">
+  <suite started-at="2023-12-27T01:32:00Z" name="Suite" finished-at="2023-12-27T01:34:45Z" duration-ms="164891">
     <groups>
     </groups>
-    <test started-at="2023-12-26T16:59:55Z" name="Default test" finished-at="2023-12-26T17:02:45Z" duration-ms="170019">
+    <test started-at="2023-12-27T01:32:00Z" name="Test" finished-at="2023-12-27T01:34:45Z" duration-ms="164891">
       <class name="com.clinic.testcases.TestCase_SignIn">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-26T23:59:55Z" name="beforeMethod" finished-at="2023-12-27T00:00:20Z" duration-ms="25072" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:32:00Z" name="beforeMethod" finished-at="2023-12-27T08:32:19Z" duration-ms="18595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="signIn_TC1()[pri:1, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:00:20Z" name="signIn_TC1" finished-at="2023-12-27T00:00:33Z" duration-ms="12517" status="PASS">
+        <test-method signature="signIn_TC1()[pri:1, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:32:19Z" name="signIn_TC1" finished-at="2023-12-27T08:32:31Z" duration-ms="12366" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in action successfully performed]]>
             </line>
           </reporter-output>
         </test-method> <!-- signIn_TC1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:00:33Z" name="afterMethod" finished-at="2023-12-27T00:00:37Z" duration-ms="4009" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:32:31Z" name="afterMethod" finished-at="2023-12-27T08:32:35Z" duration-ms="4217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:00:37Z" name="beforeMethod" finished-at="2023-12-27T00:00:49Z" duration-ms="12102" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:32:35Z" name="beforeMethod" finished-at="2023-12-27T08:32:48Z" duration-ms="12855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="signIn_TC2()[pri:2, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:00:49Z" name="signIn_TC2" finished-at="2023-12-27T00:00:59Z" duration-ms="10009" status="PASS">
+        <test-method signature="signIn_TC2()[pri:2, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:32:48Z" name="signIn_TC2" finished-at="2023-12-27T08:32:58Z" duration-ms="9835" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in action is not successfully performed]]>
             </line>
           </reporter-output>
         </test-method> <!-- signIn_TC2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:00:59Z" name="afterMethod" finished-at="2023-12-27T00:01:02Z" duration-ms="3041" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:32:58Z" name="afterMethod" finished-at="2023-12-27T08:33:00Z" duration-ms="2532" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:01:02Z" name="beforeMethod" finished-at="2023-12-27T00:01:14Z" duration-ms="12259" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:33:00Z" name="beforeMethod" finished-at="2023-12-27T08:33:12Z" duration-ms="12114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="signIn_TC3()[pri:3, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:01:14Z" name="signIn_TC3" finished-at="2023-12-27T00:01:24Z" duration-ms="9609" status="PASS">
+        <test-method signature="signIn_TC3()[pri:3, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:33:12Z" name="signIn_TC3" finished-at="2023-12-27T08:33:26Z" duration-ms="13454" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in action is not successfully performed]]>
             </line>
           </reporter-output>
         </test-method> <!-- signIn_TC3 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:01:24Z" name="afterMethod" finished-at="2023-12-27T00:01:26Z" duration-ms="2750" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:33:26Z" name="afterMethod" finished-at="2023-12-27T08:33:29Z" duration-ms="2603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:01:26Z" name="beforeMethod" finished-at="2023-12-27T00:01:38Z" duration-ms="12063" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:33:29Z" name="beforeMethod" finished-at="2023-12-27T08:33:41Z" duration-ms="12091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="signIn_TC4()[pri:4, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:01:38Z" name="signIn_TC4" finished-at="2023-12-27T00:01:48Z" duration-ms="9797" status="PASS">
+        <test-method signature="signIn_TC4()[pri:4, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:33:41Z" name="signIn_TC4" finished-at="2023-12-27T08:33:51Z" duration-ms="10117" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in action is not successfully performed]]>
             </line>
           </reporter-output>
         </test-method> <!-- signIn_TC4 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:01:48Z" name="afterMethod" finished-at="2023-12-27T00:01:51Z" duration-ms="3187" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:33:51Z" name="afterMethod" finished-at="2023-12-27T08:33:55Z" duration-ms="3920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:01:51Z" name="beforeMethod" finished-at="2023-12-27T00:02:04Z" duration-ms="12135" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:33:55Z" name="beforeMethod" finished-at="2023-12-27T08:34:07Z" duration-ms="12804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="signIn_TC5()[pri:5, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:02:04Z" name="signIn_TC5" finished-at="2023-12-27T00:02:14Z" duration-ms="10363" status="PASS">
+        <test-method signature="signIn_TC5()[pri:5, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:34:07Z" name="signIn_TC5" finished-at="2023-12-27T08:34:18Z" duration-ms="10123" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in action is not successfully performed]]>
             </line>
           </reporter-output>
         </test-method> <!-- signIn_TC5 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:02:14Z" name="afterMethod" finished-at="2023-12-27T00:02:17Z" duration-ms="3325" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:34:18Z" name="afterMethod" finished-at="2023-12-27T08:34:21Z" duration-ms="2932" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:02:17Z" name="beforeMethod" finished-at="2023-12-27T00:02:30Z" duration-ms="12954" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:34:21Z" name="beforeMethod" finished-at="2023-12-27T08:34:32Z" duration-ms="11670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="signIn_TC6()[pri:6, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:02:30Z" name="signIn_TC6" finished-at="2023-12-27T00:02:40Z" duration-ms="10121" status="PASS">
+        <test-method signature="signIn_TC6()[pri:6, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:34:32Z" name="signIn_TC6" finished-at="2023-12-27T08:34:42Z" duration-ms="9849" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sign in action is not successfully performed]]>
             </line>
           </reporter-output>
         </test-method> <!-- signIn_TC6 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@29526c05]" started-at="2023-12-27T00:02:40Z" name="afterMethod" finished-at="2023-12-27T00:02:45Z" duration-ms="4628" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.clinic.testcases.TestCase_SignIn@20f5239f]" started-at="2023-12-27T08:34:42Z" name="afterMethod" finished-at="2023-12-27T08:34:45Z" duration-ms="2742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.clinic.testcases.TestCase_SignIn -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

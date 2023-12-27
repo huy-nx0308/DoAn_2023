@@ -34,7 +34,7 @@ public class TestCase_SignIn {
 		String browserName = excel.getCellData(1, 5);
 		System.out.println(browserName);
 		driver = Utility.openBrowser(browserName);
-		System.out.println(driver);
+		//System.out.println(driver);
 		// Đợi 10s để mở
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
