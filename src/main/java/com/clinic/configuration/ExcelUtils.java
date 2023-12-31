@@ -2,6 +2,7 @@ package com.clinic.configuration;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.util.Properties;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -9,76 +10,70 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
+import io.opentelemetry.semconv.trace.attributes.SemanticAttributes.FaasTriggerValues;
 
 public class ExcelUtils {
 	private Sheet excelWSheet;
 	private Workbook excelWBook;
-	private Cell cell;
-	private Row row;
-	//private static MissingCellPolicy Row;
-	
-	public ExcelUtils(String path, String sheetName) {
-		// TODO Auto-generated method stub
+	private String path;
+	private static ExcelUtils instace = null;
+
+	private ExcelUtils(String path) {
+		this.path = path;
 		try {
 			// Open the Excel file
 			FileInputStream excelFile = new FileInputStream(path);
-			// Access the required test data sheet
-//			excelWBook = new XSSFWorkbook(excelFile);
 			excelWBook = WorkbookFactory.create(excelFile);
-			excelWSheet = excelWBook.getSheet(sheetName);
-			Log.info("Excel sheet opened");
-			//excelWBook.setMissingCellPolicy(Row.MissingCellPolicy.RETURN_BLANK_AS_NULL);
+			Log.info("Excel file opened");
 		} catch (Exception e) {
-			System.err.println(e.getMessage());
+			// TODO: handle exception
+			System.out.println(e.getMessage());
 		}
 	}
 
-	public void setExcelFile(String path, String sheetName) throws Exception {
-		try {
-			// Open the Excel file
-			FileInputStream excelFile = new FileInputStream(path);
-			// Access the required test data sheet
-//			excelWBook = new XSSFWorkbook(excelFile);
-			excelWBook = WorkbookFactory.create(excelFile);
-			excelWSheet = excelWBook.getSheet(sheetName);
-			Log.info("Excel sheet opened");
-			//excelWBook.setMissingCellPolicy(Row.MissingCellPolicy.RETURN_BLANK_AS_NULL);
-		} catch (Exception e) {
-			System.err.println("setExcelFile: "+e.getMessage());
-			throw (e);
+	public static ExcelUtils getInstace(String path) {
+		if (instace == null) {
+			instace = new ExcelUtils(path);
 		}
+		return instace;
+	}
+
+	public void openSheet(String sheetName) {
+		excelWSheet = excelWBook.getSheet(sheetName);
+		Log.info("Excel sheet" + sheetName + " was opened");
+
 	}
 
 	public String getCellData(int rowNum, int colNum) throws Exception {
 		try {
-			cell = excelWSheet.getRow(rowNum).getCell(colNum);
+			Cell cell = excelWSheet.getRow(rowNum).getCell(colNum);
 			String cellData = cell.getStringCellValue();
 			return cellData;
 		} catch (Exception e) {
-			System.err.println("getCellData: "+e.getMessage());
+			// TODO: handle exception
+			System.out.println("getCellData: " + e.getMessage());
 			return "";
 		}
 	}
 
-	// This method is to write in the Excel cell, Row num and Col num are the
-	// parameters
-	@SuppressWarnings("static-access")
+	// Write in the Excel Cell
 	public void setCellData(String result, int rowNum, int colNum) throws Exception {
 		try {
-			row = excelWSheet.getRow(rowNum);
-			cell = row.getCell(colNum,Row.MissingCellPolicy.RETURN_BLANK_AS_NULL);
+			Row row = excelWSheet.getRow(rowNum);
+			Cell cell = row.getCell(colNum);
 			if (cell == null) {
 				cell = row.createCell(colNum);
 				cell.setCellValue(result);
 			} else {
 				cell.setCellValue(result);
 			}
-			// Constant variables Test Data path and Test Data file name
-			FileOutputStream fileOut = new FileOutputStream(Constant.pathTestData + Constant.fileTestData);
+			// Constant variable Test Data path and Test Data file name
+			FileOutputStream fileOut = new FileOutputStream(path);
 			excelWBook.write(fileOut);
 			fileOut.flush();
 			fileOut.close();
 		} catch (Exception e) {
+			// TODO: handle exception
 			throw (e);
 		}
 	}
