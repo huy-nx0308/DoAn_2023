@@ -6,7 +6,6 @@ import com.clinic.core.BasePage;
 import com.clinic.core.KeyWordWeb;
 
 public class Common extends BasePage {
-	final String path = "Common";
 	private PropertiesFile props;
 	private ExcelUtils excel;
 	private static Common instant = null;
@@ -43,5 +42,9 @@ public class Common extends BasePage {
 
 	public void setDataToExcel(String value, int row, int col) throws Exception {
 		excel.setCellData(value, row, col);
+	}
+
+	public Object[][] getDataInSheet(String sheetName) throws Exception {
+		return excel.getSheetData(sheetName);
 	}
 }

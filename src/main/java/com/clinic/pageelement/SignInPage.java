@@ -1,13 +1,12 @@
 package com.clinic.pageelement;
 
-import com.clinic.configuration.Log;
 import com.clinic.configuration.PropertiesFile;
 import com.clinic.core.BasePage;
 import com.clinic.core.KeyWordWeb;
 
 public class SignInPage extends BasePage {
 	private PropertiesFile props;
-	
+
 	public SignInPage() {
 		super();
 		props = new PropertiesFile("Sign_In");

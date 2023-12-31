@@ -3,12 +3,10 @@ package com.clinic.core;
 import java.time.Duration;
 import java.util.NoSuchElementException;
 
-import org.apache.commons.compress.archivers.zip.X000A_NTFS;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
@@ -32,20 +30,20 @@ public class KeyWordWeb {
 	// all action keywords
 	public void openBrowser(String browser, String... url) {
 		switch (browser.toUpperCase()) {
-		case "CHROME":
-			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
-			break;
-		case "FIREFOX":
-			WebDriverManager.firefoxdriver().setup();
-			FirefoxOptions options = new FirefoxOptions();
-			options.addPreference("intl.accept_languages", "en-US,en");
-			driver = new FirefoxDriver(options);
-			break;
-		case "EDGE":
-			WebDriverManager.edgedriver().setup();
-			driver = new EdgeDriver();
-			break;
+			case "CHROME":
+				WebDriverManager.chromedriver().setup();
+				driver = new ChromeDriver();
+				break;
+			case "FIREFOX":
+				WebDriverManager.firefoxdriver().setup();
+				FirefoxOptions options = new FirefoxOptions();
+				options.addPreference("intl.accept_languages", "en-US,en");
+				driver = new FirefoxDriver(options);
+				break;
+			case "EDGE":
+				WebDriverManager.edgedriver().setup();
+				driver = new EdgeDriver();
+				break;
 
 		}
 		String rawUrl = url.length > 0 ? url[0] : "";

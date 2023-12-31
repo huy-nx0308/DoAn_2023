@@ -2,4 +2,4 @@
 target/
 test-output/
 .project
-*.log
+logfile.log

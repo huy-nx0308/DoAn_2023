@@ -2,15 +2,14 @@ package com.clinic.configuration;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.util.Properties;
+import java.io.IOException;
+import java.util.Hashtable;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-
-import io.opentelemetry.semconv.trace.attributes.SemanticAttributes.FaasTriggerValues;
 
 public class ExcelUtils {
 	private Sheet excelWSheet;
@@ -105,5 +104,50 @@ public class ExcelUtils {
 			throw (e);
 		}
 
+	}
+
+	public int getColumns() {
+		try {
+			Row row = excelWSheet.getRow(0);
+			return row.getLastCellNum();
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			throw (e);
+		}
+	}
+
+	public int getLastRowNum() {
+		return excelWSheet.getLastRowNum();
+	}
+
+	public int getPhysicalNumberOfRows() {
+		return excelWSheet.getPhysicalNumberOfRows();
+	}
+
+	public Object[][] getSheetData(String sheetName) throws Exception {
+		Object[][] data = null;
+		openSheet(sheetName);
+		try {
+
+			int rows = getLastRowNum();
+			int columns = getColumns();
+
+			System.out.println("Row: " + rows + " - Column: " + columns);
+
+			data = new Object[rows][1];
+			Hashtable<String, String> table = null;
+			for (int rIndex = 1; rIndex <= rows; rIndex++) {
+				table = new Hashtable<>();
+				for (int cIndex = 0; cIndex < columns; cIndex++) {
+					table.put(getCellData(0, cIndex), getCellData(rIndex, cIndex));
+				}
+				data[rIndex - 1][0] = table;
+			}
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return data;
 	}
 }

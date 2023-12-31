@@ -1,17 +1,10 @@
 package com.clinic.testcases;
 
-import java.time.Duration;
+import java.util.Hashtable;
 
-import org.apache.log4j.xml.DOMConfigurator;
-import org.apache.xmlbeans.impl.xb.xsdschema.Public;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.clinic.configuration.Constant;
-import com.clinic.configuration.ExcelUtils;
+import com.clinic.configuration.DataProviderFactory;
 import com.clinic.configuration.Log;
 
 import com.clinic.core.BaseTest;
@@ -20,7 +13,6 @@ import com.clinic.pageelement.HomePage;
 import com.clinic.pageelement.SignInPage;
 
 public class TestCase_SignIn extends BaseTest {
-	public WebDriver driver;
 	SignInPage signInPage;
 	HomePage homePage;
 	Common common;
@@ -29,13 +21,13 @@ public class TestCase_SignIn extends BaseTest {
 		super();
 	}
 
-	@Test(priority = 1)
-	public void signIn_TC1() throws Exception {
+	@Test(priority = 1, dataProvider = "dp_login", dataProviderClass = DataProviderFactory.class)
+	public void signIn_TC1(Hashtable<String, String> data) throws Exception {
 		Common common = Common.getInstant();
 		try {
-			
-			String userName = common.getDataFromExcel(1, 2);
-			String password = common.getDataFromExcel(1, 3);
+
+			String userName = data.get("UserName");
+			String password = data.get("PassWord");
 			System.out.println(userName);
 			homePage = new HomePage();
 			homePage.goToPage("Log in");
@@ -50,10 +42,10 @@ public class TestCase_SignIn extends BaseTest {
 			signInPage.clickOnButton("Log In");
 			Thread.sleep(2000);
 			System.out.println("Log in thanh cong");
-			common.setDataToExcel("Pass", 1, 4);
+			common.setDataToExcel("Pass", Integer.parseInt(data.get("STT")), 4);
 
 		} catch (Exception e) {
-			common.setDataToExcel("Fail", 1, 4);
+			common.setDataToExcel("Fail", Integer.parseInt(data.get("STT")), 4);
 			Log.error(e.getMessage());
 			throw (e);
 		}
