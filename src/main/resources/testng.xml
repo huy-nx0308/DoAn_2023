@@ -1,10 +1,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Suite" verbose="1">
-	<test name="Sign_In">
+	<!-- ><test name="Sign_In">
 		<classes>
 			<class name="com.clinic.testcases.TestCase_SignIn">
 			</class>
+		</classes>
+	</test> -->
+	<test name="Search">
+		<classes>
+			<class name="com.clinic.testcases.TestCase_Search"/>
 		</classes>
 	</test>
 </suite>

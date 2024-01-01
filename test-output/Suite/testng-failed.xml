@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test name="Test(failed)">
+  <test name="Search(failed)">
     <classes>
-      <class name="com.clinic.testcases.TestCase_SignIn">
+      <class name="com.clinic.testcases.TestCase_Search">
         <methods>
-          <include name="signIn_TC3"/>
-          <include name="signIn_TC1"/>
+          <include name="afterTest"/>
           <include name="beforeMethod"/>
-          <include name="signIn_TC6"/>
-          <include name="signIn_TC4"/>
-          <include name="signIn_TC2"/>
-          <include name="signIn_TC5"/>
+          <include name="search_TC" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
         </methods>
-      </class> <!-- com.clinic.testcases.TestCase_SignIn -->
+      </class> <!-- com.clinic.testcases.TestCase_Search -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Search(failed) -->
 </suite> <!-- Failed suite [Suite] -->

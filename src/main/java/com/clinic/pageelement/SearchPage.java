@@ -30,4 +30,8 @@ public class SearchPage extends BasePage {
 	public void inputToTheTextBox(String textboxName, String value) {
 		keyword.inputText(props.getPropValue("TEXTBOX_SEARCH").replace("param", textboxName), value);
 	}
+	public void clickFilter(String element) {
+		keyword.webDriverWaitForElementPresent(element, 5);
+		keyword.click(element);
+	}
 }

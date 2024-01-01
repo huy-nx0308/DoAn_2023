@@ -13,5 +13,12 @@ public class DataProviderFactory {
         Log.debug("Get data from excel: " + data.length);
         return data;
     }
+    @DataProvider(name ="dp_search")
+    public Object[][] dataSearch() throws Exception {
+        Common common = Common.getInstant();
+        Object[][] data = common.getDataInSheet("Search");
+        Log.debug("Get data from excel: " + data.length);
+        return data;
+    }
 
 }

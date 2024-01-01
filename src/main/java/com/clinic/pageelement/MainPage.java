@@ -33,4 +33,11 @@ public class MainPage extends BasePage {
 		keyword.click(props.getPropValue("BTN_SEARCH"));
 		
 	}
+	//Click add button playlist
+	public void clickToAdd() {
+		keyword.webDriverWaitForElementPresent(props.getPropValue("BTN_ADD"), 5);
+		keyword.click(props.getPropValue("BTN_ADD"));
+		//click to jump addplaylist page
+		
+	}
 }
