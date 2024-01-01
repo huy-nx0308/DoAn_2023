@@ -1,5 +1,4 @@
-.settings/
 target/
-test-output/
-.project
-logfile.log
+/.project
+/.classpath
+/.settings

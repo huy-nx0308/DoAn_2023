@@ -27,26 +27,32 @@ public class TestCase_SignIn extends BaseTest {
 	public void signIn_TC1(Hashtable<String, String> data) throws Exception {
 		Common common = Common.getInstant();
 		try {
-
+			Log.info(data.get("TestCaseName"));
 			String userName = data.get("UserName");
 			String password = data.get("PassWord");
-			System.out.println(userName);
 			homePage = new HomePage();
 			homePage.goToPage("Log in");
-			System.out.println("goToPage ");
-			signInPage = new SignInPage(this.keyword);
-			Thread.sleep(000);
+
+			signInPage = new SignInPage();
+			Thread.sleep(2000);
 			signInPage.inputToTheTextBox("username", userName);
 			signInPage.inputToTheTextBox("password", password);
 			signInPage.clickOnButton("Log In");
 			Thread.sleep(3000);
-			System.out.println("Log in thanh cong");
-			mainPage = new MainPage(this.keyword);
-			if(mainPage.visibleInstallBtn()) {
-				common.setDataToExcel("Pass", 1, 4);
+//
+//			mainPage = new MainPage();
+//			if(mainPage.visibleInstallBtn()) {
+//				System.out.println("Log in thanh cong");
+//				common.setDataToExcel("Pass", Integer.parseInt(data.get("STT")), 4);
+//			} else {
+//				common.setDataToExcel("Fail", Integer.parseInt(data.get("STT")), 4);
+//			}
+			System.out.println(keyword.getTitle());
+			System.out.println(data.get("Expectation key").toString());
+			keyword.webDriverWaitForElementPresent(data.get("Expectation key").toString(), 4);
+			if(keyword.verifyElementVisible(data.get("Expectation key").toString())) {
+				common.setDataToExcel("Pass", Integer.parseInt(data.get("STT")), 4);
 			}
-			
-
 		} catch (Exception e) {
 			common.setDataToExcel("Fail", Integer.parseInt(data.get("STT")), 4);
 			Log.error(e.getMessage());

@@ -34,7 +34,6 @@ public class HomePage extends BasePage {
 			button = props.getPropValue("BTN_SIGN_UP");
 			break;
 		}
-		System.out.println(button);
 		keyword.click(button);
 		try {
 			Thread.sleep(2000);

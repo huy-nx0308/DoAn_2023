@@ -1,0 +1,184 @@
+2024-01-01 11:23:39,330 INFO  [Log] **************************************************************************************** 
+2024-01-01 11:23:39,349 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Sign_In       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-01-01 11:23:39,349 INFO  [Log] **************************************************************************************** 
+2024-01-01 11:23:39,375 INFO  [Log] Excel sheetSign_In was opened 
+2024-01-01 11:23:52,634 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:23:52,635 INFO  [Log] url: [Ljava.lang.String;@62f11ebb 
+2024-01-01 11:23:56,728 INFO  [Log] ??ng nh?p ?úng email và password 
+2024-01-01 11:23:56,754 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:23:59,814 INFO  [Log] page Log in displayed! 
+2024-01-01 11:24:02,634 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:24:06,692 ERROR [Log] Unable to locate element:  //span[text()='Install App']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b84c7137-c1e7-49e2-8efe-6804c8772170, findElement {using=xpath, value= //span[text()='Install App']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:41622, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7072, moz:profile: C:\Users\HUY.NX183556\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:41622/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b84c7137-c1e7-49e2-8efe-6804c8772170 
+2024-01-01 11:24:06,727 INFO  [Log] Browser closed 
+2024-01-01 11:24:16,872 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:24:16,872 INFO  [Log] url: [Ljava.lang.String;@2dafae61 
+2024-01-01 11:24:23,313 INFO  [Log] ??ng nh?p khi ?? tr?ng email,pass 
+2024-01-01 11:24:23,314 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:24:26,138 INFO  [Log] page Log in displayed! 
+2024-01-01 11:24:28,254 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:24:31,636 INFO  [Log] Browser closed 
+2024-01-01 11:24:40,507 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:24:40,507 INFO  [Log] url: [Ljava.lang.String;@15d3793b 
+2024-01-01 11:24:45,059 INFO  [Log] ??ng nh?p khi ?? tr?ng email 
+2024-01-01 11:24:45,060 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:24:47,830 INFO  [Log] page Log in displayed! 
+2024-01-01 11:24:50,050 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:24:53,429 INFO  [Log] Browser closed 
+2024-01-01 11:25:01,817 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:25:01,818 INFO  [Log] url: [Ljava.lang.String;@4c38cd16 
+2024-01-01 11:25:08,887 INFO  [Log] ??ng nh?p khi ?? tr?ng pass 
+2024-01-01 11:25:08,888 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:25:11,526 INFO  [Log] page Log in displayed! 
+2024-01-01 11:25:13,861 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:25:17,224 INFO  [Log] Browser closed 
+2024-01-01 11:25:24,789 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:25:24,790 INFO  [Log] url: [Ljava.lang.String;@5e3db14 
+2024-01-01 11:25:31,361 INFO  [Log] ??ng nh?p khi sai email 
+2024-01-01 11:25:31,362 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:25:34,029 INFO  [Log] page Log in displayed! 
+2024-01-01 11:25:36,458 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:25:39,810 ERROR [Log] Unable to locate element: //span[text()='Incorrect username or password.']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f27c566c-84e0-4ebd-8749-d38ba0413e79, findElement {using=xpath, value=//span[text()='Incorrect username or password.']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:15661, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6552, moz:profile: C:\Users\HUY.NX183556\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:15661/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f27c566c-84e0-4ebd-8749-d38ba0413e79 
+2024-01-01 11:25:39,815 INFO  [Log] Browser closed 
+2024-01-01 11:25:47,881 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:25:47,881 INFO  [Log] url: [Ljava.lang.String;@78b0ec3a 
+2024-01-01 11:25:54,623 INFO  [Log] ??ng nh?p khi sai pass 
+2024-01-01 11:25:54,624 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:25:59,216 INFO  [Log] page Log in displayed! 
+2024-01-01 11:26:01,794 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:26:05,157 ERROR [Log] Unable to locate element: //span[text()='Incorrect username or password.']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [33f21c68-3e70-4880-8fe5-fd5d6261ea89, findElement {using=xpath, value=//span[text()='Incorrect username or password.']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:20448, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8880, moz:profile: C:\Users\HUY.NX183556\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20448/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 33f21c68-3e70-4880-8fe5-fd5d6261ea89 
+2024-01-01 11:26:05,159 INFO  [Log] Browser closed 
+2024-01-01 11:26:07,963 INFO  [Log] Browser closed 
+2024-01-01 11:43:17,730 INFO  [Log] **************************************************************************************** 
+2024-01-01 11:43:17,746 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Sign_In       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-01-01 11:43:17,746 INFO  [Log] **************************************************************************************** 
+2024-01-01 11:43:17,778 INFO  [Log] Excel sheetSign_In was opened 
+2024-01-01 11:43:28,637 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:43:28,638 INFO  [Log] url: [Ljava.lang.String;@6b63e6ad 
+2024-01-01 11:43:33,165 INFO  [Log] ??ng nh?p ?úng email và password 
+2024-01-01 11:43:33,172 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:43:38,250 INFO  [Log] page Log in displayed! 
+2024-01-01 11:43:40,958 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:43:44,236 INFO  [Log] WebDriver wait for element present 
+2024-01-01 11:43:49,001 ERROR [Log] Expected condition failed: waiting for presence of element located by: By.xpath:  //span[text()='Install App'] (tried for 4 second(s) with 500 milliseconds interval) 
+2024-01-01 11:43:49,024 INFO  [Log] Browser closed 
+2024-01-01 11:44:04,948 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:44:04,952 INFO  [Log] url: [Ljava.lang.String;@202ae86f 
+2024-01-01 11:44:14,713 INFO  [Log] ??ng nh?p khi ?? tr?ng email,pass 
+2024-01-01 11:44:14,715 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:44:28,028 INFO  [Log] page Log in displayed! 
+2024-01-01 11:44:30,438 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:44:34,038 INFO  [Log] WebDriver wait for element present 
+2024-01-01 11:44:34,182 INFO  [Log] Browser closed 
+2024-01-01 11:44:42,752 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:44:42,752 INFO  [Log] url: [Ljava.lang.String;@390037e7 
+2024-01-01 11:44:49,749 INFO  [Log] ??ng nh?p khi ?? tr?ng email 
+2024-01-01 11:44:49,751 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:44:52,460 INFO  [Log] page Log in displayed! 
+2024-01-01 11:44:54,852 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:44:58,144 INFO  [Log] WebDriver wait for element present 
+2024-01-01 11:44:58,231 INFO  [Log] Browser closed 
+2024-01-01 11:45:06,205 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:45:06,206 INFO  [Log] url: [Ljava.lang.String;@12d40609 
+2024-01-01 11:45:12,985 INFO  [Log] ??ng nh?p khi ?? tr?ng pass 
+2024-01-01 11:45:12,987 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:45:15,917 INFO  [Log] page Log in displayed! 
+2024-01-01 11:45:18,293 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:45:21,588 INFO  [Log] WebDriver wait for element present 
+2024-01-01 11:45:21,722 INFO  [Log] Browser closed 
+2024-01-01 11:45:30,032 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:45:30,032 INFO  [Log] url: [Ljava.lang.String;@35145874 
+2024-01-01 11:45:34,370 INFO  [Log] ??ng nh?p khi sai email 
+2024-01-01 11:45:34,374 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:45:37,451 ERROR [Log] Unable to locate element: //h1[text()='Log in to Spotify']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4597920e-8e27-4631-a82f-ea7663e77f2f, findElement {using=xpath, value=//h1[text()='Log in to Spotify']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:9746, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13916, moz:profile: C:\Users\HUY.NX183556\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:9746/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4597920e-8e27-4631-a82f-ea7663e77f2f 
+2024-01-01 11:45:37,454 INFO  [Log] Browser closed 
+2024-01-01 11:45:45,001 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:45:45,001 INFO  [Log] url: [Ljava.lang.String;@50ec4bfc 
+2024-01-01 11:45:49,676 INFO  [Log] ??ng nh?p khi sai pass 
+2024-01-01 11:45:49,677 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:45:52,462 INFO  [Log] page Log in displayed! 
+2024-01-01 11:45:55,062 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:45:58,332 INFO  [Log] WebDriver wait for element present 
+2024-01-01 11:46:02,576 ERROR [Log] Expected condition failed: waiting for presence of element located by: By.xpath: //span[text()='Incorrect username or password.'] (tried for 4 second(s) with 500 milliseconds interval) 
+2024-01-01 11:46:02,578 INFO  [Log] Browser closed 
+2024-01-01 11:46:05,968 INFO  [Log] Browser closed 
+2024-01-01 11:53:41,428 INFO  [Log] **************************************************************************************** 
+2024-01-01 11:53:41,439 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Sign_In       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-01-01 11:53:41,439 INFO  [Log] **************************************************************************************** 
+2024-01-01 11:53:41,458 INFO  [Log] Excel sheetSign_In was opened 
+2024-01-01 11:53:52,025 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:53:52,027 INFO  [Log] url: [Ljava.lang.String;@17410c07 
+2024-01-01 11:53:56,157 INFO  [Log] ??ng nh?p ?úng email và password 
+2024-01-01 11:53:56,172 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:54:01,563 INFO  [Log] page Log in displayed! 
+2024-01-01 11:54:04,070 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:54:07,382 INFO  [Log] WebDriver wait for element present 
+2024-01-01 11:54:08,574 INFO  [Log] Browser closed 
+2024-01-01 11:54:21,440 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:54:21,440 INFO  [Log] url: [Ljava.lang.String;@a6c54c3 
+2024-01-01 11:54:25,674 INFO  [Log] ??ng nh?p khi ?? tr?ng email,pass 
+2024-01-01 11:54:25,675 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:54:28,518 INFO  [Log] page Log in displayed! 
+2024-01-01 11:54:30,628 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:54:33,970 INFO  [Log] WebDriver wait for element present 
+2024-01-01 11:54:34,099 INFO  [Log] Browser closed 
+2024-01-01 11:54:42,227 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:54:42,227 INFO  [Log] url: [Ljava.lang.String;@307e4c44 
+2024-01-01 11:54:46,452 INFO  [Log] ??ng nh?p khi ?? tr?ng email 
+2024-01-01 11:54:46,453 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:54:49,307 INFO  [Log] page Log in displayed! 
+2024-01-01 11:54:51,599 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:54:54,884 INFO  [Log] WebDriver wait for element present 
+2024-01-01 11:54:54,999 INFO  [Log] Browser closed 
+2024-01-01 11:55:03,166 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:55:03,166 INFO  [Log] url: [Ljava.lang.String;@5ba90d8a 
+2024-01-01 11:55:09,998 INFO  [Log] ??ng nh?p khi ?? tr?ng pass 
+2024-01-01 11:55:09,999 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:55:12,779 INFO  [Log] page Log in displayed! 
+2024-01-01 11:55:15,223 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:55:18,501 INFO  [Log] WebDriver wait for element present 
+2024-01-01 11:55:18,628 INFO  [Log] Browser closed 
+2024-01-01 11:55:26,528 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:55:26,529 INFO  [Log] url: [Ljava.lang.String;@6401188a 
+2024-01-01 11:55:33,165 INFO  [Log] ??ng nh?p khi sai email 
+2024-01-01 11:55:33,165 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:55:35,939 INFO  [Log] page Log in displayed! 
+2024-01-01 11:55:38,370 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:55:41,642 INFO  [Log] WebDriver wait for element present 
+2024-01-01 11:55:41,786 INFO  [Log] Browser closed 
+2024-01-01 11:55:49,672 INFO  [Log] Go to url: https://open.spotify.com/ 
+2024-01-01 11:55:49,672 INFO  [Log] url: [Ljava.lang.String;@17c0274c 
+2024-01-01 11:55:56,155 INFO  [Log] ??ng nh?p khi sai pass 
+2024-01-01 11:55:56,156 INFO  [Log] CLicked element: //span[text()='Log in']/parent::button 
+2024-01-01 11:55:59,025 INFO  [Log] page Log in displayed! 
+2024-01-01 11:56:01,507 INFO  [Log] CLicked element: //*[text()='Log In']/ancestor::button 
+2024-01-01 11:56:04,785 INFO  [Log] WebDriver wait for element present 
+2024-01-01 11:56:04,895 INFO  [Log] Browser closed 
+2024-01-01 11:56:07,701 INFO  [Log] Browser closed 

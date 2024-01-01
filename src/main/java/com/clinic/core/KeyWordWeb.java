@@ -66,6 +66,10 @@ public class KeyWordWeb {
 		driver.findElement(By.xpath(element)).click();
 
 	}
+	public String getTitle() {
+		String title = driver.getTitle();
+		return title;
+	}
 
 	public void doubleClick(String element) {
 		Log.info("Double clicked element: " + element);
@@ -170,9 +174,7 @@ public class KeyWordWeb {
 
 	// nhập dữ liệu vào ô input
 	public void inputText(String element, String text) {
-		// clear data cũ
-		driver.findElement(By.xpath(element)).clear();
-		// Nhập data mới
+	
 		driver.findElement(By.xpath(element)).sendKeys(text);
 	}
 
