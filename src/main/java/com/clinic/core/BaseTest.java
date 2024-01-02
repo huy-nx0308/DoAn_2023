@@ -11,41 +11,59 @@ import org.testng.annotations.BeforeTest;
 import com.clinic.configuration.Log;
 import com.clinic.pageelement.Common;
 
+import java.lang.reflect.Method;
+
 public class BaseTest {
-	protected KeyWordWeb keyword;
-	Common common;
+    protected KeyWordWeb keyword;
+    Common common;
 
-	public BaseTest() {
-		keyword = new KeyWordWeb();
-	}
+    public BaseTest() {
+        System.out.println("Base Test");
+        keyword = new KeyWordWeb();
+        common = Common.getInstant();
+    }
 
-	@BeforeSuite
-	public void beforeSuite() {
+    @BeforeSuite
+    public void beforeSuite() {
+        System.out.println("beforeSuite");
+    }
 
-	}
+    @BeforeTest
+    public void beforeTest(final ITestContext testContext) {
+        String testname = testContext.getName();
+        System.out.println("beforeTest: " + testname);
 
-	@BeforeTest
-	public void beforeTest(final ITestContext testContext) {
-		System.out.println("beforeTest: " + testContext.getName());
-		common = Common.getInstant();
-		DOMConfigurator.configure("log4j.xml");
-		Log.startTestCase(testContext.getName());
+        if (!testname.equals("Sign_In")) {
+            keyword.openBrowser(common.getProps().getPropValue("BROWSER_NAME"), common.getProps().getPropValue("BASE_URL"));
+        }
+        DOMConfigurator.configure("log4j.xml");
+        Log.startTestCase(testContext.getName());
 
-	}
+    }
 
-	@AfterTest
-	public void afterTest() {
-		keyword.closeBrowser();
-	}
+    @AfterTest
+    public void afterTest( ITestContext testContext) {
+        String testname = testContext.getName();
 
-	@BeforeMethod
-	public void beforeMethod() {
-		common = Common.getInstant();
-		keyword.openBrowser(common.getProps().getPropValue("BROWSER_NAME"), common.getProps().getPropValue("BASE_URL"));
-	}
+        if (!testname.equals("Sign_In")) {
+            keyword.closeBrowser();
+        }
 
-	@AfterMethod
-	public void afterMethod() {
-		keyword.closeBrowser();
-	}
+    }
+
+    @BeforeMethod
+    public void beforeMethod(Method method) {
+        String methodName = method.getName();
+        System.out.println("beforeMethod: " + methodName);
+        if (methodName.startsWith("signIn"))
+            keyword.openBrowser(common.getProps().getPropValue("BROWSER_NAME"), common.getProps().getPropValue("BASE_URL"));
+    }
+
+    @AfterMethod
+    public void afterMethod(Method method) {
+        String methodName = method.getName();
+        System.out.println("afterMethod: " + methodName);
+        if (methodName.startsWith("signIn"))
+            keyword.closeBrowser();
+    }
 }
