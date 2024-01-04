@@ -20,5 +20,12 @@ public class DataProviderFactory {
         Log.debug("Get data from excel: " + data.length);
         return data;
     }
+    @DataProvider(name="dp_addPlayList")
+    public Object[][]dataAddPlayList() throws Exception{
+    	Common common = Common.getInstant();
+    	Object[][] data = common.getDataInSheet("Add_Playlist");
+    	Log.debug("Get data from excel: " + data.length);
+    	return data;
+    }
 
 }

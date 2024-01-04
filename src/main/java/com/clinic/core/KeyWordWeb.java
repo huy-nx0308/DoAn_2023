@@ -30,20 +30,20 @@ public class KeyWordWeb {
 	// all action keywords
 	public void openBrowser(String browser, String... url) {
 		switch (browser.toUpperCase()) {
-			case "CHROME":
-				WebDriverManager.chromedriver().setup();
-				driver = new ChromeDriver();
-				break;
-			case "FIREFOX":
-				WebDriverManager.firefoxdriver().setup();
-				FirefoxOptions options = new FirefoxOptions();
-				options.addPreference("intl.accept_languages", "en-US,en");
-				driver = new FirefoxDriver(options);
-				break;
-			case "EDGE":
-				WebDriverManager.edgedriver().setup();
-				driver = new EdgeDriver();
-				break;
+		case "CHROME":
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+			break;
+		case "FIREFOX":
+			WebDriverManager.firefoxdriver().setup();
+			FirefoxOptions options = new FirefoxOptions();
+			options.addPreference("intl.accept_languages", "en-US,en");
+			driver = new FirefoxDriver(options);
+			break;
+		case "EDGE":
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+			break;
 
 		}
 		String rawUrl = url.length > 0 ? url[0] : "";
@@ -66,6 +66,7 @@ public class KeyWordWeb {
 		driver.findElement(By.xpath(element)).click();
 
 	}
+
 	public String getTitle() {
 		String title = driver.getTitle();
 		return title;
@@ -172,9 +173,10 @@ public class KeyWordWeb {
 
 	}
 
-	// nhập dữ liệu vào ô input
+	// Input data
 	public void inputText(String element, String text) {
-	
+		// clear old data before input new data
+		driver.findElement(By.xpath(element)).clear();
 		driver.findElement(By.xpath(element)).sendKeys(text);
 	}
 

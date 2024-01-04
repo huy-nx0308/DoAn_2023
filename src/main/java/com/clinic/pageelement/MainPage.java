@@ -38,6 +38,8 @@ public class MainPage extends BasePage {
 		keyword.webDriverWaitForElementPresent(props.getPropValue("BTN_ADD"), 5);
 		keyword.click(props.getPropValue("BTN_ADD"));
 		//click to jump addplaylist page
+		keyword.webDriverWaitForElementPresent(props.getPropValue("BTN_ADD_PLAYLIST"), 5);
+		keyword.click(props.getPropValue("BTN_ADD_PLAYLIST"));
 		
 	}
 }
