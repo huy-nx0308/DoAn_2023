@@ -51,19 +51,5 @@ public class BaseTest {
 
     }
 
-    @BeforeMethod
-    public void beforeMethod(Method method) {
-        String methodName = method.getName();
-        System.out.println("beforeMethod: " + methodName);
-        if (methodName.startsWith("signIn"))
-            keyword.openBrowser(common.getProps().getPropValue("BROWSER_NAME"), common.getProps().getPropValue("BASE_URL"));
-    }
 
-    @AfterMethod
-    public void afterMethod(Method method) {
-        String methodName = method.getName();
-        System.out.println("afterMethod: " + methodName);
-        if (methodName.startsWith("signIn"))
-            keyword.closeBrowser();
-    }
 }

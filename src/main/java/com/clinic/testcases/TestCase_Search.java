@@ -2,6 +2,8 @@ package com.clinic.testcases;
 
 import java.util.Hashtable;
 
+import com.clinic.configuration.Listener;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.clinic.pageelement.Common;
@@ -13,6 +15,7 @@ import com.clinic.configuration.DataProviderFactory;
 import com.clinic.configuration.Log;
 import com.clinic.core.BaseTest;
 
+@Listeners(Listener.class)
 public class TestCase_Search extends BaseTest {
 	MainPage mainPage;
 	HomePage homePage;

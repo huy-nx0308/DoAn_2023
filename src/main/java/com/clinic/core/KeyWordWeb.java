@@ -27,6 +27,10 @@ public class KeyWordWeb {
 
 	}
 
+	public static WebDriver getDriver(){
+		return driver;
+	}
+
 	// all action keywords
 	public void openBrowser(String browser, String... url) {
 		switch (browser.toUpperCase()) {
