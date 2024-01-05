@@ -2,6 +2,7 @@ package com.clinic.testcases;
 
 import java.util.Hashtable;
 
+import com.clinic.core.BaseTest;
 import org.testng.annotations.Test;
 
 import com.clinic.configuration.DataProviderFactory;
@@ -12,7 +13,7 @@ import com.clinic.pageelement.HomePage;
 import com.clinic.pageelement.MainPage;
 import com.clinic.pageelement.SignInPage;
 
-public class TestCase_AddPlayList extends BasePage {
+public class TestCase_AddPlayList extends BaseTest {
 	HomePage homePage;
 	SignInPage signInPage;
 	MainPage mainPage;
