@@ -3,3 +3,5 @@ target/
 /.classpath
 /.settings
 /.idea
+/logfile.log
+/test-output
