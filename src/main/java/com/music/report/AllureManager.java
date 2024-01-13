@@ -1,9 +1,10 @@
-package com.clinic.report;
+package com.music.report;
 
-import com.clinic.core.KeyWordWeb;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+
+import com.music.core.KeyWordWeb;
 
 import java.sql.DriverManager;
 

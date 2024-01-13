@@ -1,8 +1,8 @@
-package com.clinic.configuration;
+package com.music.configuration;
 
 import org.testng.annotations.DataProvider;
 
-import com.clinic.pageelement.Common;
+import com.music.pageobject.Common;
 
 public class DataProviderFactory {
 

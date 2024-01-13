@@ -1,4 +1,4 @@
-package com.clinic.core;
+package com.music.core;
 
 public class BasePage {
 	protected KeyWordWeb keyword;

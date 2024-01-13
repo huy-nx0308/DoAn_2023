@@ -1,8 +1,8 @@
-package com.clinic.pageelement;
+package com.music.pageobject;
 
-import com.clinic.configuration.PropertiesFile;
-import com.clinic.core.BasePage;
-import com.clinic.core.KeyWordWeb;
+import com.music.configuration.PropertiesFile;
+import com.music.core.BasePage;
+import com.music.core.KeyWordWeb;
 
 public class MainPage extends BasePage {
 	private PropertiesFile props;

@@ -1,7 +1,6 @@
-package com.clinic.configuration;
+package com.music.configuration;
 
 
-import com.clinic.report.AllureManager;
 import org.testng.IInvokedMethod;
 import org.testng.IInvokedMethodListener;
 import org.testng.ISuite;
@@ -11,6 +10,8 @@ import org.testng.ITestListener;
 import org.testng.ITestNGMethod;
 import org.testng.ITestResult;
 import org.testng.Reporter;
+
+import com.music.report.AllureManager;
 
 public class Listener implements ITestListener, ISuiteListener, IInvokedMethodListener {
 

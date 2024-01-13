@@ -1,6 +1,7 @@
-package com.clinic.core;
+package com.music.core;
 
 import java.time.Duration;
+import java.util.List;
 import java.util.NoSuchElementException;
 
 import org.openqa.selenium.By;
@@ -16,7 +17,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.clinic.configuration.Log;
+import com.music.configuration.Log;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -75,6 +76,11 @@ public class KeyWordWeb {
 		String title = driver.getTitle();
 		return title;
 	}
+	
+	public String getText(String element) {
+		String text = driver.findElement(By.xpath(element)).getText();
+		return text;
+	}
 
 	public void doubleClick(String element) {
 		Log.info("Double clicked element: " + element);
@@ -96,7 +102,7 @@ public class KeyWordWeb {
 		Actions builder = new Actions(driver);
 		WebElement clickMe = driver.findElement(By.xpath(element));
 		WebElement editMenuItem = driver.findElement(By.xpath(menuItem));
-		builder.contextClick(clickMe).moveToElement(editMenuItem).perform();
+		builder.contextClick(clickMe).moveToElement(editMenuItem).click().build().perform();
 	}
 
 	public void maximizeWindow() {
@@ -182,6 +188,11 @@ public class KeyWordWeb {
 		// clear old data before input new data
 		driver.findElement(By.xpath(element)).clear();
 		driver.findElement(By.xpath(element)).sendKeys(text);
+	}
+	// Get element
+	public List<WebElement> getListElement(String text) {
+		List<WebElement> elements = driver.findElements(By.xpath(text));
+		return elements;
 	}
 
 }

@@ -1,19 +1,19 @@
-package com.clinic.testcases;
+package com.music.testcases;
 
 import java.util.Hashtable;
 
-import com.clinic.configuration.Listener;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import com.clinic.pageelement.Common;
-import com.clinic.pageelement.HomePage;
-import com.clinic.pageelement.MainPage;
-import com.clinic.pageelement.SearchPage;
-import com.clinic.pageelement.SignInPage;
-import com.clinic.configuration.DataProviderFactory;
-import com.clinic.configuration.Log;
-import com.clinic.core.BaseTest;
+import com.music.configuration.DataProviderFactory;
+import com.music.configuration.Listener;
+import com.music.configuration.Log;
+import com.music.core.BaseTest;
+import com.music.pageobject.Common;
+import com.music.pageobject.HomePage;
+import com.music.pageobject.MainPage;
+import com.music.pageobject.SearchPage;
+import com.music.pageobject.SignInPage;
 
 @Listeners(Listener.class)
 public class TestCase_Search extends BaseTest {
@@ -46,9 +46,11 @@ public class TestCase_Search extends BaseTest {
 
 			String searchKeyword = data.get("SearchText").toString();
 			searchPage.inputToTheTextBox("Search", searchKeyword);
-
+			Thread.sleep(2000);
 			if (data.get("Filter") != null && data.get("Filter").length() > 0) {
 				searchPage.clickFilter(data.get("Filter").toString());
+				System.out.println("click thanh cong");
+				Thread.sleep(3000);
 				String expectedKey = data.get("Expectation key").toString();
 				keyword.webDriverWaitForElementPresent(expectedKey, 4);
 				if (keyword.verifyElementVisible(expectedKey)) {
@@ -71,12 +73,14 @@ public class TestCase_Search extends BaseTest {
 			common.setDataToExcel("Fail", Integer.parseInt(data.get("STT")), 5);
 			Thread.sleep(4000);
 		}
+		boolean result = common.getDataFromExcel(Integer.parseInt(data.get("STT")), 5).equals("Pass");
+		assert(result);
 	}
 
 	public void signInMainPage() throws InterruptedException {
 		// Log.info(data.get("TestCaseName"));
 		String userName = "xuanhuynguyen0308@gmail.com";
-		String password = "Huy163173491@";
+		String password = "Huy030820@";
 		homePage = new HomePage();
 		homePage.goToPage("Log in");
 

@@ -1,4 +1,4 @@
-package com.clinic.configuration;
+package com.music.configuration;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

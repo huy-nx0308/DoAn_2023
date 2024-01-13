@@ -1,4 +1,4 @@
-package com.clinic.configuration;
+package com.music.configuration;
 
 import org.apache.log4j.Logger;
 

@@ -1,10 +1,10 @@
-package com.clinic.pageelement;
+package com.music.pageobject;
 
 import java.util.Properties;
 
-import com.clinic.configuration.PropertiesFile;
-import com.clinic.core.BasePage;
-import com.clinic.core.KeyWordWeb;
+import com.music.configuration.PropertiesFile;
+import com.music.core.BasePage;
+import com.music.core.KeyWordWeb;
 
 public class SearchPage extends BasePage {
 
@@ -31,7 +31,7 @@ public class SearchPage extends BasePage {
 		keyword.inputText(props.getPropValue("TEXTBOX_SEARCH").replace("param", textboxName), value);
 	}
 	public void clickFilter(String element) {
-		keyword.webDriverWaitForElementPresent(element, 5);
-		keyword.click(element);
+		System.out.println(props.getPropValue("FILTER").replace("param", element));
+		keyword.click(props.getPropValue("FILTER").replace("param", element));
 	}
 }
