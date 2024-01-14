@@ -36,7 +36,7 @@ public class HomePage extends BasePage {
 		}
 		keyword.click(button);
 		try {
-			Thread.sleep(2000);
+			Thread.sleep(3500);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

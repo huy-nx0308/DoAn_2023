@@ -29,14 +29,16 @@ public class BaseTest {
     }
 
     @BeforeTest
-    public void beforeTest(final ITestContext testContext) {
+    public void beforeTest(final ITestContext testContext) throws InterruptedException {
         String testname = testContext.getName();
         System.out.println("beforeTest: " + testname);
 
         if (!testname.equals("Sign_In")) {
             keyword.openBrowser(common.getProps().getPropValue("BROWSER_NAME"), common.getProps().getPropValue("BASE_URL"));
+            keyword.maximizeWindow();
+            Thread.sleep(2500);
         }
-        keyword.maximizeWindow();
+        
         DOMConfigurator.configure("log4j.xml");
         Log.startTestCase(testContext.getName());
 

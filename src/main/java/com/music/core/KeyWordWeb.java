@@ -57,6 +57,7 @@ public class KeyWordWeb {
 
 			Log.info("url: " + url);
 			driver.get(rawUrl);
+			
 		}
 
 	}

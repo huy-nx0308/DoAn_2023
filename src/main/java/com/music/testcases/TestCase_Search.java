@@ -46,7 +46,7 @@ public class TestCase_Search extends BaseTest {
 
 			String searchKeyword = data.get("SearchText").toString();
 			searchPage.inputToTheTextBox("Search", searchKeyword);
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			if (data.get("Filter") != null && data.get("Filter").length() > 0) {
 				searchPage.clickFilter(data.get("Filter").toString());
 				System.out.println("click thanh cong");
@@ -56,7 +56,7 @@ public class TestCase_Search extends BaseTest {
 				if (keyword.verifyElementVisible(expectedKey)) {
 					common.setDataToExcel("Pass", Integer.parseInt(data.get("STT")), 5);
 				}
-				
+
 			} else {
 				String expectedKey = data.get("Expectation key").toString();
 				keyword.webDriverWaitForElementPresent(expectedKey, 4);
@@ -74,7 +74,7 @@ public class TestCase_Search extends BaseTest {
 			Thread.sleep(4000);
 		}
 		boolean result = common.getDataFromExcel(Integer.parseInt(data.get("STT")), 5).equals("Pass");
-		assert(result);
+		assert (result);
 	}
 
 	public void signInMainPage() throws InterruptedException {

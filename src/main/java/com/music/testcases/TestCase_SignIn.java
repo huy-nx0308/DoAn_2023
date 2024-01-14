@@ -29,9 +29,11 @@ public class TestCase_SignIn extends BaseTest {
 	}
 
 	@BeforeMethod
-	public void beforeMethod(Method method) {
+	public void beforeMethod(Method method) throws InterruptedException {
 		Common common = Common.getInstant();
 		keyword.openBrowser(common.getProps().getPropValue("BROWSER_NAME"), common.getProps().getPropValue("BASE_URL"));
+		keyword.maximizeWindow();
+		Thread.sleep(2500);
 	}
 
 	@AfterMethod
