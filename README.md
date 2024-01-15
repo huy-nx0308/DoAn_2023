@@ -7,9 +7,9 @@
 
 ### Các bước chạy chương trình
    * **Bước 1**: Cấu hình Test case muốn chạy trong file testng.xml
-       Chạy Test case Sign_in: comment lại 2 Test case search và Add_playlist
-       Chạy Test case Search: comment lại 2 Test case Sign_in và Add_playlist
-        Chạy Test case Add_playlist: comment lại 2 Test case Sign_in và Search
+       * Chạy Test case Sign_in: comment lại 2 Test case search và Add_playlist
+       * Chạy Test case Search: comment lại 2 Test case Sign_in và Add_playlist
+       * Chạy Test case Add_playlist: comment lại 2 Test case Sign_in và Search
    * **Bước 2**: Chạy câu lệnh *mvn clean test* trong cửa sổ terminal của dự án
   *  **Bước 3**: Sau khi chạy và build thành công, để xem báo cáo . Gõ câu lệnh *allure-2.25.0\bin\allure serve target\allure-results* trong cửa sổ terminal.
   
