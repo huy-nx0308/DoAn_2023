@@ -1,7 +1,7 @@
 ## Kiểm thử chức năng cho website Spotify
 ### Yêu cầu môi trường: Window 10
 ### Cài đặt môi trường
-*Apache Maven 3.8.6: [Maven download](https://maven.apache.org/docs/3.8.6/release-notes.html)
+* Apache Maven 3.8.6: [Maven download](https://maven.apache.org/docs/3.8.6/release-notes.html)
 * Java jdk 11.0.21 : [Java download](https://www.oracle.com/java/technologies/javase/11-0-21-relnotes.html)
 * Eclipse IDE for Java Developers: [Eclipse](https://www.eclipse.org/downloads/packages/release/europa/winter/eclipse-ide-java-developers)
 
