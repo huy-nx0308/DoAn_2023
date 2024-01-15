@@ -6,7 +6,7 @@
 * Eclipse IDE for Java Developers: [Eclipse](https://www.eclipse.org/downloads/packages/release/europa/winter/eclipse-ide-java-developers)
 
 ### Các bước chạy chương trình
-   * **Bước 1**: Cấu hình Test case muốn chạy trong file testng.xml
+   * **Bước 1**: Cấu hình Test case muốn chạy trong file src/main/resources/testng.xml
        * Chạy Test case Sign_in: comment lại 2 Test case search và Add_playlist
        * Chạy Test case Search: comment lại 2 Test case Sign_in và Add_playlist
        * Chạy Test case Add_playlist: comment lại 2 Test case Sign_in và Search
